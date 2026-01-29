@@ -1,0 +1,124 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "matter": "front",
+      "level": "title"
+    },
+    {
+      "number": 2,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 3,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 4,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 5,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 6,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 7,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 8,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 9,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 10,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 11,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 12,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 13,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 14,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 15,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 16,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 17,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 18,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 19,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 20,
+      "matter": "back",
+      "level": "section"
+    },
+    {
+      "number": 21,
+      "matter": "back",
+      "level": "section"
+    },
+    {
+      "number": 22,
+      "matter": "back",
+      "level": "subsection"
+    },
+    {
+      "number": 23,
+      "matter": "back",
+      "level": "subsection"
+    },
+    {
+      "number": 24,
+      "matter": "back",
+      "level": "subsection"
+    }
+  ]
+}

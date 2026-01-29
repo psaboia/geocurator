@@ -1,0 +1,172 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "sequence": 1,
+      "type": "title",
+      "text": "In Situ Quantitative Measurement of Rare Earth Elements in Uranium Oxides by Laser Ablation-Inductively Coupled Plasma-Mass Spectrometry",
+      "element_id": 1
+    },
+    {
+      "number": 2,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "Experimental",
+      "element_id": 12
+    },
+    {
+      "number": 3,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "LA-ICP-MS instrumentation and operating conditions",
+      "element_id": 13
+    },
+    {
+      "number": 4,
+      "sequence": 3,
+      "type": "sub_title",
+      "text": "Signal acquisition",
+      "element_id": 18
+    },
+    {
+      "number": 5,
+      "sequence": 3,
+      "type": "sub_title",
+      "text": "Data processing",
+      "element_id": 20
+    },
+    {
+      "number": 6,
+      "sequence": 3,
+      "type": "sub_title",
+      "text": "Reference materials",
+      "element_id": 25
+    },
+    {
+      "number": 7,
+      "sequence": 4,
+      "type": "sub_title",
+      "text": "Studied samples",
+      "element_id": 30
+    },
+    {
+      "number": 8,
+      "sequence": 5,
+      "type": "sub_title",
+      "text": "Calibration of the LA-ICP-MS for uranium oxide analyses",
+      "element_id": 35
+    },
+    {
+      "number": 9,
+      "sequence": 5,
+      "type": "sub_title",
+      "text": "Calibration protocol",
+      "element_id": 36
+    },
+    {
+      "number": 10,
+      "sequence": 5,
+      "type": "sub_title",
+      "text": "Influence of internal standard (Pb or U) and ablation crater diameter",
+      "element_id": 40
+    },
+    {
+      "number": 11,
+      "sequence": 6,
+      "type": "sub_title",
+      "text": "Uncertainty and limit of detection",
+      "element_id": 44
+    },
+    {
+      "number": 12,
+      "sequence": 6,
+      "type": "sub_title",
+      "text": "Reproducibility and accuracy",
+      "element_id": 47
+    },
+    {
+      "number": 13,
+      "sequence": 6,
+      "type": "sub_title",
+      "text": "Matrix-matched versus non-matrix-matched analyses",
+      "element_id": 50
+    },
+    {
+      "number": 14,
+      "sequence": 9,
+      "type": "sub_title",
+      "text": "Application: REE measurements of UO2 from the Kiggavik, Torkuduk and Dulann Uul uranium deposits",
+      "element_id": 63
+    },
+    {
+      "number": 15,
+      "sequence": 10,
+      "type": "sub_title",
+      "text": "Discussion",
+      "element_id": 68
+    },
+    {
+      "number": 16,
+      "sequence": 10,
+      "type": "sub_title",
+      "text": "Evidence for fractionation effects between U, REE and Pb",
+      "element_id": 70
+    },
+    {
+      "number": 17,
+      "sequence": 15,
+      "type": "sub_title",
+      "text": "Technical advantages of LA-ICP-MS compared with SIMS for in situ determination of REE contents of uranium oxide",
+      "element_id": 87
+    },
+    {
+      "number": 18,
+      "sequence": 17,
+      "type": "sub_title",
+      "text": "Preliminary results obtained for REE contents in natural uranium oxides by LA-ICP-MS",
+      "element_id": 92
+    },
+    {
+      "number": 19,
+      "sequence": 17,
+      "type": "sub_title",
+      "text": "Conclusions",
+      "element_id": 94
+    },
+    {
+      "number": 20,
+      "sequence": 18,
+      "type": "sub_title",
+      "text": "Acknowledgements",
+      "element_id": 97
+    },
+    {
+      "number": 21,
+      "sequence": 18,
+      "type": "sub_title",
+      "text": "References",
+      "element_id": 99
+    },
+    {
+      "number": 22,
+      "sequence": 19,
+      "type": "sub_title",
+      "text": "references",
+      "element_id": 118
+    },
+    {
+      "number": 23,
+      "sequence": 19,
+      "type": "sub_title",
+      "text": "IAEA (2009)",
+      "element_id": 121
+    },
+    {
+      "number": 24,
+      "sequence": 20,
+      "type": "sub_title",
+      "text": "references",
+      "element_id": 143
+    }
+  ]
+}

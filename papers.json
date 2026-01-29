@@ -20,5 +20,16 @@
         "elements": 45,
         "charts": 10,
         "tables": 0
+    },
+    {
+        "id": "Lach2013",
+        "folder": "Lach2013",
+        "title": "In Situ Quantitative Measurement of Rare Earth Elements in Uranium Oxides by Laser Ablation-Inductively Coupled Plasma-Mass Spectrometry",
+        "authors": "Geostandards and Geoanalytical Research",
+        "year": "2013",
+        "pages": 20,
+        "elements": 153,
+        "charts": 15,
+        "tables": 8
     }
 ]
