@@ -1,0 +1,49 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "matter": "front",
+      "level": "title"
+    },
+    {
+      "number": 2,
+      "matter": "front",
+      "level": "section"
+    },
+    {
+      "number": 3,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 4,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 5,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 6,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 7,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 8,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 9,
+      "matter": "back",
+      "level": "section"
+    }
+  ]
+}

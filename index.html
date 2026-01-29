@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoCurator - Processed Scientific Papers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #888;
+        }
+        .papers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        .paper-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+        .paper-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+        }
+        .paper-title {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .paper-meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        .paper-meta span {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .paper-stats {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            background: rgba(52, 152, 219, 0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #3498db;
+        }
+        .stat.charts {
+            background: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+        }
+        .stat.tables {
+            background: rgba(155, 89, 182, 0.2);
+            color: #9b59b6;
+        }
+        .view-btn {
+            display: inline-block;
+            background: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+        .view-btn:hover {
+            background: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #666;
+            font-size: 0.85rem;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GeoCurator</h1>
+            <p class="subtitle">Processed Scientific Papers with Extracted Charts and Data</p>
+        </header>
+
+        <div id="papers-container" class="papers-grid">
+            <div class="loading">Loading papers...</div>
+        </div>
+
+        <footer>
+            <p>Powered by <a href="https://github.com/psaboia/deepseek-ocr-experiments">DeepSeek-OCR Pipeline</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Papers data - will be loaded from papers.json
+        async function loadPapers() {
+            try {
+                const response = await fetch('papers.json');
+                const papers = await response.json();
+                renderPapers(papers);
+            } catch (error) {
+                console.error('Error loading papers:', error);
+                document.getElementById('papers-container').innerHTML =
+                    '<div class="loading">Error loading papers. Please try again later.</div>';
+            }
+        }
+
+        function renderPapers(papers) {
+            const container = document.getElementById('papers-container');
+
+            if (papers.length === 0) {
+                container.innerHTML = '<div class="loading">No papers available yet.</div>';
+                return;
+            }
+
+            container.innerHTML = papers.map(paper => `
+                <div class="paper-card">
+                    <h2 class="paper-title">${paper.title}</h2>
+                    <div class="paper-meta">
+                        <span>${paper.authors || 'Unknown authors'}</span>
+                        <span>${paper.year || ''}</span>
+                    </div>
+                    <div class="paper-stats">
+                        <span class="stat">${paper.pages} pages</span>
+                        <span class="stat">${paper.elements} elements</span>
+                        ${paper.charts > 0 ? `<span class="stat charts">${paper.charts} charts</span>` : ''}
+                        ${paper.tables > 0 ? `<span class="stat tables">${paper.tables} tables</span>` : ''}
+                    </div>
+                    <a href="${paper.folder}/viewer.html" class="view-btn">View Paper</a>
+                </div>
+            `).join('');
+        }
+
+        // Load papers on page load
+        loadPapers();
+    </script>
+</body>
+</html>

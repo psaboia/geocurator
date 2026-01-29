@@ -1,0 +1,99 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "matter": "front",
+      "level": "title"
+    },
+    {
+      "number": 2,
+      "matter": "front",
+      "level": "label"
+    },
+    {
+      "number": 3,
+      "matter": "front",
+      "level": "section"
+    },
+    {
+      "number": 4,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 5,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 6,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 7,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 8,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 9,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 10,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 11,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 12,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 13,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 14,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 15,
+      "matter": "body",
+      "level": "subsection"
+    },
+    {
+      "number": 16,
+      "matter": "body",
+      "level": "section"
+    },
+    {
+      "number": 17,
+      "matter": "back",
+      "level": "section"
+    },
+    {
+      "number": 18,
+      "matter": "back",
+      "level": "section"
+    },
+    {
+      "number": 19,
+      "matter": "back",
+      "level": "section"
+    }
+  ]
+}

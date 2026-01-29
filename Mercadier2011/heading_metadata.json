@@ -1,0 +1,67 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "sequence": 1,
+      "type": "title",
+      "text": "Origin of uranium deposits revealed by their rare earth element signature",
+      "element_id": 1
+    },
+    {
+      "number": 2,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "ABSTRACT",
+      "element_id": 4
+    },
+    {
+      "number": 3,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "Introduction",
+      "element_id": 8
+    },
+    {
+      "number": 4,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "Previous developments and considerations",
+      "element_id": 12
+    },
+    {
+      "number": 5,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "Results",
+      "element_id": 15
+    },
+    {
+      "number": 6,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "Controls on REE incorporation in uranium oxides",
+      "element_id": 17
+    },
+    {
+      "number": 7,
+      "sequence": 4,
+      "type": "sub_title",
+      "text": "Development perspectives for forensic purpose",
+      "element_id": 30
+    },
+    {
+      "number": 8,
+      "sequence": 5,
+      "type": "sub_title",
+      "text": "Conclusions",
+      "element_id": 35
+    },
+    {
+      "number": 9,
+      "sequence": 6,
+      "type": "sub_title",
+      "text": "Supporting Information",
+      "element_id": 40
+    }
+  ]
+}

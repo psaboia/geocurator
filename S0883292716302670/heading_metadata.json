@@ -1,0 +1,137 @@
+{
+  "headings": [
+    {
+      "number": 1,
+      "sequence": 1,
+      "type": "title",
+      "text": "Chemical and Sr isotopic characterization of North America uranium ores: Nuclear forensic applications",
+      "element_id": 1
+    },
+    {
+      "number": 2,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "ARTICLEINFO",
+      "element_id": 4
+    },
+    {
+      "number": 3,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "ABSTRACT",
+      "element_id": 5
+    },
+    {
+      "number": 4,
+      "sequence": 1,
+      "type": "sub_title",
+      "text": "1. Introduction",
+      "element_id": 10
+    },
+    {
+      "number": 5,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "2. Materials and methods",
+      "element_id": 17
+    },
+    {
+      "number": 6,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "2.1. Samples",
+      "element_id": 18
+    },
+    {
+      "number": 7,
+      "sequence": 2,
+      "type": "title",
+      "text": "2.1.1. Brief description of the uranium samples",
+      "element_id": 20
+    },
+    {
+      "number": 8,
+      "sequence": 2,
+      "type": "sub_title",
+      "text": "3. Analytical methods",
+      "element_id": 23
+    },
+    {
+      "number": 9,
+      "sequence": 3,
+      "type": "sub_title",
+      "text": "4. Results and discussion",
+      "element_id": 31
+    },
+    {
+      "number": 10,
+      "sequence": 3,
+      "type": "sub_title",
+      "text": "4.1. Major elements and REE",
+      "element_id": 32
+    },
+    {
+      "number": 11,
+      "sequence": 6,
+      "type": "title",
+      "text": "4.1.1. Comparison of REE uranium ore and UOC from Wyoming",
+      "element_id": 59
+    },
+    {
+      "number": 12,
+      "sequence": 6,
+      "type": "title",
+      "text": "4.1.2. Method validation",
+      "element_id": 61
+    },
+    {
+      "number": 13,
+      "sequence": 6,
+      "type": "sub_title",
+      "text": "4.2. First row transition metals",
+      "element_id": 63
+    },
+    {
+      "number": 14,
+      "sequence": 7,
+      "type": "sub_title",
+      "text": "4.3. Other metals",
+      "element_id": 69
+    },
+    {
+      "number": 15,
+      "sequence": 7,
+      "type": "sub_title",
+      "text": "4.4. Strontium isotopes",
+      "element_id": 73
+    },
+    {
+      "number": 16,
+      "sequence": 9,
+      "type": "sub_title",
+      "text": "5. Conclusions",
+      "element_id": 85
+    },
+    {
+      "number": 17,
+      "sequence": 9,
+      "type": "sub_title",
+      "text": "Acknowledgments",
+      "element_id": 88
+    },
+    {
+      "number": 18,
+      "sequence": 9,
+      "type": "sub_title",
+      "text": "Appendix A. Supplementary data",
+      "element_id": 90
+    },
+    {
+      "number": 19,
+      "sequence": 9,
+      "type": "sub_title",
+      "text": "References",
+      "element_id": 92
+    }
+  ]
+}
