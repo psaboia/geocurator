@@ -36,7 +36,21 @@ geocurator/
 
 - All viewers updated with latest fixes (commit e7cac1f)
 - Mercadier2011 has chart data extracted with smart extraction
-- comparison.html added for visual chart validation
+- **comparison.html** added to ALL papers for visual chart validation:
+  - https://psaboia.github.io/geocurator/Mercadier2011/comparison.html
+  - https://psaboia.github.io/geocurator/S0883292716302670/comparison.html
+  - https://psaboia.github.io/geocurator/Lach2013/comparison.html
+
+## Comparison Pages
+
+Each paper has `comparison.html` that shows side-by-side:
+- **Left**: Original chart image from PDF
+- **Right**: Replotted chart from extracted data
+- **Below**: Raw JSON data (expandable)
+
+Files needed for comparison:
+- `comparison.html` - The comparison page (same for all papers)
+- `charts_comparison_data.json` - Extracted chart data for that paper
 
 ## Updating Viewers
 
