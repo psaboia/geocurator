@@ -35,13 +35,20 @@ geocurator/
 
 ## Updating Viewers
 
-When `viewer_template.html` is updated in deepseek-ocr-experiments, manually copy to all papers:
+When `viewer_template.html` is updated in deepseek-ocr-experiments, manually copy to all papers and add the commit hash:
 
 ```bash
-cp /path/to/deepseek-ocr-experiments/scripts/viewer_template.html Mercadier2011/viewer.html
-cp /path/to/deepseek-ocr-experiments/scripts/viewer_template.html S0883292716302670/viewer.html
-cp /path/to/deepseek-ocr-experiments/scripts/viewer_template.html Lach2013/viewer.html
+cd /path/to/deepseek-ocr-experiments
+HASH=$(git log --oneline -1 scripts/viewer_template.html | cut -d' ' -f1)
+
+cd /path/to/geocurator
+for paper in Mercadier2011 S0883292716302670 Lach2013; do
+    cp /path/to/deepseek-ocr-experiments/scripts/viewer_template.html "$paper/viewer.html"
+    sed -i "s|<!DOCTYPE html>|<!DOCTYPE html>\n<!-- viewer_template.html from deepseek-ocr-experiments commit: $HASH ($(date -u +\"%Y-%m-%d %H:%M:%S UTC\")) -->|" "$paper/viewer.html"
+done
 ```
+
+Each viewer.html has a comment with the source commit hash for traceability.
 
 ## Recent Work
 
