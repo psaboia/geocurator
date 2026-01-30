@@ -947,8 +947,18 @@
                 });
             });
 
-            // Set document title from first section or filename
-            const docTitle = documentData.sections?.[0]?.name || documentData.sections?.[0]?.title || 'Untitled Document';
+            // Set document title from first "title" element on page 1, or fallback to first section
+            let docTitle = 'Untitled Document';
+            const firstPage = documentData.pages?.[0];
+            if (firstPage) {
+                const titleElem = firstPage.elements?.find(e => e.raw_type === 'title');
+                if (titleElem?.text) {
+                    docTitle = titleElem.text;
+                }
+            }
+            if (docTitle === 'Untitled Document') {
+                docTitle = documentData.sections?.[0]?.name || documentData.sections?.[0]?.title || 'Untitled Document';
+            }
             document.getElementById('document-title').textContent = docTitle;
             document.getElementById('document-title').title = docTitle; // Full title on hover
 

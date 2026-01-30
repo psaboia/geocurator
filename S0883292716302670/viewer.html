@@ -947,8 +947,18 @@
                 });
             });
 
-            // Set document title from first section or filename
-            const docTitle = documentData.sections?.[0]?.name || documentData.sections?.[0]?.title || 'Untitled Document';
+            // Set document title from first "title" element on page 1, or fallback to first section
+            let docTitle = 'Untitled Document';
+            const firstPage = documentData.pages?.[0];
+            if (firstPage) {
+                const titleElem = firstPage.elements?.find(e => e.raw_type === 'title');
+                if (titleElem?.text) {
+                    docTitle = titleElem.text;
+                }
+            }
+            if (docTitle === 'Untitled Document') {
+                docTitle = documentData.sections?.[0]?.name || documentData.sections?.[0]?.title || 'Untitled Document';
+            }
             document.getElementById('document-title').textContent = docTitle;
             document.getElementById('document-title').title = docTitle; // Full title on hover
 
@@ -1186,7 +1196,10 @@
             img.onload = () => {
                 imageNaturalWidth = img.naturalWidth;
                 imageNaturalHeight = img.naturalHeight;
-                renderOverlays(page);
+                // Use requestAnimationFrame to ensure layout is complete before rendering overlays
+                requestAnimationFrame(() => {
+                    applyZoom();
+                });
             };
 
             clearInfoPanel();
@@ -1332,7 +1345,7 @@
                 }
                 html += '</div>';
 
-                // Data points grouped by series - handle both flat and nested formats
+                // Data points grouped by series - handle multiple formats
                 const data = chart.data || [];
                 if (data.length > 0) {
                     const seriesMap = new Map();
@@ -1348,6 +1361,17 @@
                             nestedPoints.forEach(pt => {
                                 seriesMap.get(series).points.push(pt);
                             });
+                        } else if (Array.isArray(item.x) && Array.isArray(item.y)) {
+                            // Parallel arrays format: {series, x: [...], y: [...], color, ...}
+                            const series = item.series || 'Default';
+                            if (!seriesMap.has(series)) {
+                                seriesMap.set(series, { points: [], color: item.color });
+                            }
+                            const xArr = item.x;
+                            const yArr = item.y;
+                            for (let i = 0; i < Math.min(xArr.length, yArr.length); i++) {
+                                seriesMap.get(series).points.push({ x: xArr[i], y: yArr[i], color: item.color });
+                            }
                         } else {
                             // Flat format
                             const series = item.series || 'Default';
@@ -1665,7 +1689,7 @@
                 const chartType = (chart.Chart_Type || '').toLowerCase();
                 const data = chart.data || [];
 
-                // Group data by series - handle both flat and nested formats
+                // Group data by series - handle multiple formats
                 const seriesMap = new Map();
                 data.forEach(item => {
                     // Check for nested format: points or data_points array
@@ -1683,6 +1707,41 @@
                                 minus: pt.error_bars.error_minus || 0
                             } : null);
                         });
+                    } else if (Array.isArray(item.x) && Array.isArray(item.y)) {
+                        // Parallel arrays format: {series, x: [...], y: [...], color, ...}
+                        const series = item.series || 'Default';
+                        if (!seriesMap.has(series)) {
+                            seriesMap.set(series, {
+                                points: [],
+                                errorBars: [],
+                                color: item.color,
+                                lineStyle: item.line_style,
+                                markerType: item.marker_type,
+                                markerFill: item.marker_fill,
+                                markerSize: item.marker_size,
+                                perPointColors: [],
+                                perPointMarkerTypes: [],
+                                perPointMarkerFills: [],
+                                perPointMarkerSizes: []
+                            });
+                        }
+                        const seriesEntry = seriesMap.get(series);
+                        const xArr = item.x;
+                        const yArr = item.y;
+                        const errArr = item.error_bars || [];
+                        for (let i = 0; i < Math.min(xArr.length, yArr.length); i++) {
+                            seriesEntry.points.push({ x: xArr[i], y: yArr[i] });
+                            seriesEntry.perPointColors.push(item.color);
+                            seriesEntry.perPointMarkerTypes.push(item.marker_type);
+                            seriesEntry.perPointMarkerFills.push(item.marker_fill);
+                            seriesEntry.perPointMarkerSizes.push(item.marker_size);
+                            // Handle error bars if present as array
+                            const eb = Array.isArray(errArr) ? errArr[i] : null;
+                            seriesEntry.errorBars.push(eb ? {
+                                plus: eb.error_plus || 0,
+                                minus: eb.error_minus || 0
+                            } : null);
+                        }
                     } else {
                         // Flat format: {series, x, y, color, ...}
                         const series = item.series || 'Default';
@@ -1875,7 +1934,12 @@
                 const yMin = chart.Left_Y_axis_min;
                 const yMax = chart.Left_Y_axis_max;
 
-                // For bar charts, transform data to use categorical labels
+                // Detect if X values are categorical (strings)
+                const allXValues = [];
+                seriesMap.forEach(sd => sd.points.forEach(p => allXValues.push(p.x)));
+                const hasStringX = allXValues.some(x => typeof x === 'string');
+
+                // For bar charts or categorical X values, transform data to use categorical labels
                 let chartData = { datasets };
                 let xAxisConfig = {
                     type: 'linear',
@@ -1890,15 +1954,30 @@
                     grid: { color: '#ddd' },
                 };
 
-                if (isBarChart) {
-                    // Get unique x values as categories
-                    const categories = [...new Set(data.map(item => item.x))].sort((a, b) => a - b);
+                if (isBarChart || hasStringX) {
+                    // Get unique x values as categories - preserve order from first series if strings
+                    let categories;
+                    if (hasStringX) {
+                        // For string X values, preserve the order they appear in the data
+                        const seenCategories = new Set();
+                        categories = [];
+                        seriesMap.forEach(sd => {
+                            sd.points.forEach(p => {
+                                if (!seenCategories.has(p.x)) {
+                                    seenCategories.add(p.x);
+                                    categories.push(p.x);
+                                }
+                            });
+                        });
+                    } else {
+                        categories = [...new Set(allXValues)].sort((a, b) => a - b);
+                    }
                     const categoryLabels = categories.map(c => String(c));
 
-                    // Transform datasets for categorical bar chart
-                    const barDatasets = [];
+                    // Transform datasets for categorical chart (bar or line with string X)
+                    const catDatasets = [];
                     seriesMap.forEach((seriesData, seriesName) => {
-                        const color = seriesData.color || defaultColors[barDatasets.length % defaultColors.length];
+                        const color = seriesData.color || defaultColors[catDatasets.length % defaultColors.length];
                         // Map points to category indices
                         const values = categories.map(cat => {
                             const point = seriesData.points.find(p => p.x === cat);
@@ -1914,19 +1993,56 @@
                         });
                         const hasErrBars = Object.keys(errBarsMap).length > 0;
 
-                        barDatasets.push({
-                            label: seriesName,
-                            data: values,
-                            backgroundColor: color + '99',
-                            borderColor: color,
-                            borderWidth: 1,
-                            errorBarsMap: hasErrBars ? errBarsMap : undefined,
-                            errorBarColor: '#000',
-                            errorBarLineWidth: 1.5,
-                        });
+                        if (isBarChart) {
+                            catDatasets.push({
+                                label: seriesName,
+                                data: values,
+                                backgroundColor: color + '99',
+                                borderColor: color,
+                                borderWidth: 1,
+                                errorBarsMap: hasErrBars ? errBarsMap : undefined,
+                                errorBarColor: '#000',
+                                errorBarLineWidth: 1.5,
+                            });
+                        } else {
+                            // Line/scatter with categorical X
+                            const lineStyle = (seriesData.lineStyle || '').toLowerCase();
+                            const markerType = (seriesData.markerType || '').toLowerCase();
+                            const markerFill = (seriesData.markerFill || 'filled').toLowerCase();
+                            const hasLine = !lineStyle ? true : (lineStyle !== 'none');
+                            const hasMarker = !markerType ? true : (markerType !== 'none');
+                            const isHollow = markerFill === 'hollow' || markerFill === 'open';
+                            const pointStyle = markerType && markerType !== 'none' ? (markerStyleMap[markerType] || 'circle') : 'circle';
+                            const pointRadius = getPointRadius(seriesData.markerSize);
+                            let borderDash = [];
+                            if (lineStyle === 'dashed') borderDash = [5, 5];
+                            else if (lineStyle === 'dotted') borderDash = [2, 2];
+                            else if (lineStyle === 'dashdot') borderDash = [5, 2, 2, 2];
+
+                            catDatasets.push({
+                                label: seriesName,
+                                data: values,
+                                borderColor: hasLine ? color : 'transparent',
+                                backgroundColor: isHollow ? 'transparent' : (color + '33'),
+                                pointBackgroundColor: isHollow ? 'transparent' : color,
+                                pointBorderColor: color,
+                                pointBorderWidth: isHollow ? 2 : 1,
+                                pointStyle: pointStyle,
+                                pointRadius: hasMarker ? pointRadius : 0,
+                                pointHoverRadius: hasMarker ? pointRadius + 2 : 0,
+                                borderDash: borderDash,
+                                borderWidth: hasLine ? 2 : 0,
+                                fill: false,
+                                tension: 0,
+                                showLine: hasLine,
+                                errorBarsMap: hasErrBars ? errBarsMap : undefined,
+                                errorBarColor: '#000',
+                                errorBarLineWidth: 1.5,
+                            });
+                        }
                     });
 
-                    chartData = { labels: categoryLabels, datasets: barDatasets };
+                    chartData = { labels: categoryLabels, datasets: catDatasets };
                     xAxisConfig = {
                         type: 'category',
                         title: {
@@ -1983,6 +2099,8 @@
                         scales: chartJsType !== 'pie' ? {
                             x: xAxisConfig,
                             y: {
+                                // Auto-detect logarithmic scale when range spans multiple orders of magnitude
+                                type: (yMin > 0 && yMax > 0 && (yMax / yMin) > 100) ? 'logarithmic' : 'linear',
                                 min: yMin != null ? yMin : undefined,
                                 max: yMax != null ? yMax : undefined,
                                 title: {
