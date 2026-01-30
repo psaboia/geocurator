@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart Extraction Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        h1 { color: #333; }
+        .chart-comparison {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .chart-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+        .chart-meta {
+            color: #666;
+            font-size: 14px;
+        }
+        .comparison-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .comparison-panel {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .panel-header {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+        }
+        .panel-content {
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+            background: white;
+        }
+        .panel-content img {
+            max-width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+        }
+        .raw-data {
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .raw-data-header {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+        .raw-data-header:hover {
+            background: #e9ecef;
+        }
+        .raw-data-content {
+            display: none;
+            padding: 15px;
+            background: #f8f9fa;
+            max-height: 400px;
+            overflow: auto;
+        }
+        .raw-data-content.show {
+            display: block;
+        }
+        pre {
+            margin: 0;
+            font-size: 12px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .series-legend {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .series-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .series-color {
+            width: 20px;
+            height: 3px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+        .series-marker {
+            width: 8px;
+            height: 8px;
+            margin-right: 8px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chart Extraction Comparison</h1>
+    <p>Comparing original chart images with replotted data extracted by Gemini.</p>
+
+    <div id="comparisons"></div>
+
+    <script>
+        const defaultColors = ['#e94560', '#3498db', '#2ecc71', '#f1c40f', '#9b59b6', '#e67e22', '#1abc9c', '#34495e'];
+
+        const markerStyleMap = {
+            'circle': 'circle',
+            'square': 'rect',
+            'triangle': 'triangle',
+            'diamond': 'rectRot',
+            'star': 'star',
+            'plus': 'cross',
+            'x': 'crossRot',
+        };
+
+        async function loadData() {
+            const response = await fetch('charts_comparison_data.json');
+            return await response.json();
+        }
+
+        function processChartData(chartDataRaw) {
+            const charts = Array.isArray(chartDataRaw) ? chartDataRaw : [chartDataRaw];
+            return charts;
+        }
+
+        function buildSeriesMap(data) {
+            const seriesMap = new Map();
+            data.forEach(item => {
+                if (Array.isArray(item.x) && Array.isArray(item.y)) {
+                    const series = item.series || 'Default';
+                    if (!seriesMap.has(series)) {
+                        seriesMap.set(series, {
+                            points: [],
+                            color: item.color,
+                            lineStyle: item.line_style,
+                            markerType: item.marker_type,
+                            markerFill: item.marker_fill
+                        });
+                    }
+                    for (let i = 0; i < Math.min(item.x.length, item.y.length); i++) {
+                        seriesMap.get(series).points.push({ x: item.x[i], y: item.y[i] });
+                    }
+                } else if (item.points || item.data_points) {
+                    const nestedPoints = item.points || item.data_points;
+                    const series = item.series || 'Default';
+                    if (!seriesMap.has(series)) {
+                        seriesMap.set(series, { points: [], color: item.color });
+                    }
+                    nestedPoints.forEach(pt => {
+                        seriesMap.get(series).points.push({ x: pt.x, y: pt.y });
+                    });
+                } else {
+                    const series = item.series || 'Default';
+                    if (!seriesMap.has(series)) {
+                        seriesMap.set(series, { points: [], color: item.color });
+                    }
+                    seriesMap.get(series).points.push({ x: item.x, y: item.y });
+                }
+            });
+            return seriesMap;
+        }
+
+        function renderChart(canvasId, chartInfo, chartIdx) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+
+            const data = chartInfo.data || [];
+            const seriesMap = buildSeriesMap(data);
+
+            // Detect categorical X
+            const allXValues = [];
+            seriesMap.forEach(sd => sd.points.forEach(p => allXValues.push(p.x)));
+            const hasStringX = allXValues.some(x => typeof x === 'string');
+
+            // Get categories
+            let categories = [];
+            if (hasStringX) {
+                const seen = new Set();
+                seriesMap.forEach(sd => {
+                    sd.points.forEach(p => {
+                        if (!seen.has(p.x)) {
+                            seen.add(p.x);
+                            categories.push(p.x);
+                        }
+                    });
+                });
+            }
+
+            // Build datasets
+            const datasets = [];
+            let colorIdx = 0;
+
+            seriesMap.forEach((seriesData, seriesName) => {
+                const color = seriesData.color || defaultColors[colorIdx % defaultColors.length];
+                colorIdx++;
+
+                const lineStyle = (seriesData.lineStyle || '').toLowerCase();
+                const markerType = (seriesData.markerType || '').toLowerCase();
+                const markerFill = (seriesData.markerFill || 'filled').toLowerCase();
+                const hasLine = !lineStyle || lineStyle !== 'none';
+                const hasMarker = !markerType || markerType !== 'none';
+                const isHollow = markerFill === 'hollow' || markerFill === 'open';
+                const pointStyle = markerType && markerType !== 'none' ? (markerStyleMap[markerType] || 'circle') : 'circle';
+
+                let borderDash = [];
+                if (lineStyle === 'dashed') borderDash = [5, 5];
+                else if (lineStyle === 'dotted') borderDash = [2, 2];
+
+                let dataPoints;
+                if (hasStringX) {
+                    dataPoints = categories.map(cat => {
+                        const point = seriesData.points.find(p => p.x === cat);
+                        return point ? point.y : null;
+                    });
+                } else {
+                    dataPoints = seriesData.points;
+                }
+
+                datasets.push({
+                    label: seriesName,
+                    data: dataPoints,
+                    borderColor: hasLine ? color : 'transparent',
+                    backgroundColor: isHollow ? 'transparent' : (color + '33'),
+                    pointBackgroundColor: isHollow ? 'transparent' : color,
+                    pointBorderColor: color,
+                    pointBorderWidth: isHollow ? 2 : 1,
+                    pointStyle: pointStyle,
+                    pointRadius: hasMarker ? 5 : 0,
+                    borderDash: borderDash,
+                    borderWidth: hasLine ? 2 : 0,
+                    fill: false,
+                    tension: 0,
+                    showLine: hasLine
+                });
+            });
+
+            // Determine scale type
+            const yMin = chartInfo.Left_Y_axis_min;
+            const yMax = chartInfo.Left_Y_axis_max;
+            const useLogScale = yMin > 0 && yMax > 0 && (yMax / yMin) > 100;
+
+            const chartType = (chartInfo.Chart_Type || '').toLowerCase();
+            const isScatter = chartType.includes('scatter');
+
+            const config = {
+                type: isScatter ? 'scatter' : 'line',
+                data: hasStringX ? { labels: categories, datasets } : { datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: !!chartInfo.chart_title,
+                            text: chartInfo.chart_title || ''
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        x: hasStringX ? {
+                            type: 'category',
+                            title: { display: !!chartInfo.x_axis_label, text: chartInfo.x_axis_label || '' }
+                        } : {
+                            type: 'linear',
+                            title: { display: !!chartInfo.x_axis_label, text: chartInfo.x_axis_label || '' }
+                        },
+                        y: {
+                            type: useLogScale ? 'logarithmic' : 'linear',
+                            title: { display: !!chartInfo.y_axis_label, text: chartInfo.y_axis_label || '' },
+                            min: yMin || undefined,
+                            max: yMax || undefined
+                        }
+                    }
+                }
+            };
+
+            new Chart(ctx, config);
+        }
+
+        function toggleRawData(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('show');
+        }
+
+        async function init() {
+            const charts = await loadData();
+            const container = document.getElementById('comparisons');
+
+            charts.forEach((chart, idx) => {
+                const chartDataArr = processChartData(chart.chart_data);
+
+                let html = `
+                    <div class="chart-comparison">
+                        <div class="chart-header">
+                            <div class="chart-title">Chart ${idx + 1}: Page ${chart.page}</div>
+                            <div class="chart-meta">${chart.figure_type} | Element ID: ${chart.element_id}</div>
+                        </div>
+                `;
+
+                chartDataArr.forEach((chartInfo, chartIdx) => {
+                    const canvasId = `chart-${idx}-${chartIdx}`;
+                    const rawDataId = `raw-${idx}-${chartIdx}`;
+
+                    html += `
+                        <div class="comparison-container">
+                            <div class="comparison-panel">
+                                <div class="panel-header">Original Image</div>
+                                <div class="panel-content">
+                                    <img src="${chart.image_path}" alt="Original chart">
+                                </div>
+                            </div>
+                            <div class="comparison-panel">
+                                <div class="panel-header">Replotted from Extracted Data</div>
+                                <div class="panel-content">
+                                    <canvas id="${canvasId}" style="width: 100%; height: 350px;"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="raw-data">
+                            <div class="raw-data-header" onclick="toggleRawData('${rawDataId}')">
+                                <span>Raw Extracted Data (click to expand)</span>
+                                <span>▼</span>
+                            </div>
+                            <div class="raw-data-content" id="${rawDataId}">
+                                <pre>${JSON.stringify(chartInfo, null, 2)}</pre>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += '</div>';
+                container.innerHTML += html;
+
+                // Render charts after DOM is updated
+                setTimeout(() => {
+                    chartDataArr.forEach((chartInfo, chartIdx) => {
+                        const canvasId = `chart-${idx}-${chartIdx}`;
+                        renderChart(canvasId, chartInfo, chartIdx);
+                    });
+                }, 100);
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>
