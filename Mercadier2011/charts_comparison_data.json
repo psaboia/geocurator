@@ -1,0 +1,1988 @@
+[
+  {
+    "page": 3,
+    "element_id": 24,
+    "figure_type": "line_graph",
+    "image_path": "images/fig_p003_00.jpg",
+    "chart_data": [
+      {
+        "chart_title": "Intrusive",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 100000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000,
+          100000
+        ],
+        "data": [
+          {
+            "series": "Moore Lake group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              18000,
+              25000,
+              12000,
+              30000,
+              12000,
+              1800,
+              15000,
+              2500,
+              18000,
+              3500,
+              15000,
+              2500,
+              18000,
+              2500
+            ],
+            "color": "blue",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "R\u00f6ssing group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              5000,
+              10000,
+              6000,
+              15000,
+              6000,
+              800,
+              8000,
+              1200,
+              10000,
+              2000,
+              8000,
+              1200,
+              10000,
+              1200
+            ],
+            "color": "green",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "Luthi group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              8000,
+              15000,
+              8000,
+              20000,
+              9000,
+              1500,
+              12000,
+              2000,
+              15000,
+              3000,
+              12000,
+              2000,
+              15000,
+              2000
+            ],
+            "color": "orange",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          },
+          {
+            "series": "Kola group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              1000,
+              2000,
+              1200,
+              4000,
+              2000,
+              300,
+              3000,
+              500,
+              4000,
+              800,
+              3500,
+              500,
+              4000,
+              500
+            ],
+            "color": "red",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Synmetamorphic",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 100000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000,
+          100000
+        ],
+        "data": [
+          {
+            "series": "Mistamisk group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              3000,
+              4000,
+              5000,
+              8000,
+              6000,
+              4000,
+              8000,
+              1500,
+              10000,
+              2000,
+              8000,
+              1200,
+              6000,
+              800
+            ],
+            "color": "purple",
+            "line_style": "solid",
+            "marker_type": "diamond",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "Kawanga group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              200,
+              300,
+              300,
+              800,
+              400,
+              200,
+              500,
+              100,
+              600,
+              120,
+              500,
+              80,
+              400,
+              50
+            ],
+            "color": "brown",
+            "line_style": "solid",
+            "marker_type": "diamond",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Unconformity-related Unconformity-hosted",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 10000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000
+        ],
+        "data": [
+          {
+            "series": "Cigar Lake group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              30,
+              80,
+              150,
+              300,
+              500,
+              800,
+              1500,
+              300,
+              2000,
+              400,
+              1500,
+              250,
+              1000,
+              150
+            ],
+            "color": "cyan",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          },
+          {
+            "series": "McArthur River group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              5,
+              10,
+              12,
+              20,
+              80,
+              200,
+              500,
+              100,
+              800,
+              150,
+              600,
+              100,
+              500,
+              80
+            ],
+            "color": "magenta",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "Sue group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              8,
+              20,
+              30,
+              50,
+              30,
+              10,
+              20,
+              4,
+              30,
+              6,
+              20,
+              4,
+              15,
+              3
+            ],
+            "color": "yellow",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Unconformity-related Basement-hosted",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 10000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000
+        ],
+        "data": [
+          {
+            "series": "Koongarra Eagle Point group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              100,
+              200,
+              300,
+              600,
+              800,
+              1200,
+              2000,
+              400,
+              3000,
+              600,
+              2000,
+              300,
+              1500,
+              200
+            ],
+            "color": "blue",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          },
+          {
+            "series": "Millennium group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              20,
+              40,
+              60,
+              150,
+              300,
+              500,
+              1000,
+              200,
+              1500,
+              300,
+              1000,
+              150,
+              800,
+              120
+            ],
+            "color": "green",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "Nabarlek group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              8,
+              20,
+              30,
+              80,
+              100,
+              150,
+              300,
+              60,
+              500,
+              100,
+              400,
+              60,
+              300,
+              50
+            ],
+            "color": "red",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Vein-type",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 10000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000
+        ],
+        "data": [
+          {
+            "series": "Bois Noirs group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              8000,
+              6000,
+              4000,
+              2000,
+              300,
+              100,
+              800,
+              150,
+              400,
+              80,
+              300,
+              50,
+              300,
+              40
+            ],
+            "color": "orange",
+            "line_style": "solid",
+            "marker_type": "circle",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          },
+          {
+            "series": "Commanderie group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              3000,
+              2500,
+              1500,
+              800,
+              150,
+              50,
+              400,
+              80,
+              200,
+              40,
+              150,
+              30,
+              150,
+              25
+            ],
+            "color": "purple",
+            "line_style": "solid",
+            "marker_type": "circle",
+            "marker_fill": "hollow",
+            "marker_size": "small"
+          },
+          {
+            "series": "Ecarpi\u00e8re group",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              1500,
+              1000,
+              600,
+              300,
+              50,
+              20,
+              100,
+              20,
+              50,
+              10,
+              30,
+              6,
+              20,
+              4
+            ],
+            "color": "brown",
+            "line_style": "solid",
+            "marker_type": "circle",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Roll-front",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 10000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000
+        ],
+        "data": [
+          {
+            "series": "Kazakhstan 1",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              300,
+              200,
+              150,
+              100,
+              40,
+              20,
+              80,
+              50,
+              60,
+              50,
+              50,
+              50,
+              50,
+              50
+            ],
+            "color": "cyan",
+            "line_style": "solid",
+            "marker_type": "none",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          },
+          {
+            "series": "Kazakhstan 2",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              100,
+              80,
+              60,
+              50,
+              20,
+              10,
+              30,
+              20,
+              25,
+              20,
+              18,
+              18,
+              18,
+              18
+            ],
+            "color": "magenta",
+            "line_style": "solid",
+            "marker_type": "none",
+            "marker_fill": "filled",
+            "marker_size": "small"
+          }
+        ]
+      },
+      {
+        "chart_title": "Volcanic-related",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 1.8,
+        "x_axis_label": "La Ce Pr Nd Sm Eu Gd Tb Dy Ho Er Tm Yb Lu",
+        "y_axis_label": "",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 10000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000
+        ],
+        "data": [
+          {
+            "series": "Streltsovskoye 1",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              4,
+              1.5,
+              2,
+              3,
+              800,
+              200,
+              200,
+              8,
+              7,
+              5,
+              4,
+              6,
+              5,
+              4
+            ],
+            "color": "blue",
+            "line_style": "solid",
+            "marker_type": "star",
+            "marker_fill": "filled",
+            "marker_size": "medium"
+          },
+          {
+            "series": "Streltsovskoye 2",
+            "x": [
+              "La",
+              "Ce",
+              "Pr",
+              "Nd",
+              "Sm",
+              "Eu",
+              "Gd",
+              "Tb",
+              "Dy",
+              "Ho",
+              "Er",
+              "Tm",
+              "Yb",
+              "Lu"
+            ],
+            "y": [
+              2,
+              1,
+              1.5,
+              2,
+              500,
+              150,
+              150,
+              7,
+              6,
+              4,
+              3,
+              5,
+              4,
+              3
+            ],
+            "color": "green",
+            "line_style": "solid",
+            "marker_type": "star",
+            "marker_fill": "filled",
+            "marker_size": "medium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "element_id": 26,
+    "figure_type": "scatter_plot",
+    "image_path": "images/fig_p004_00.jpg",
+    "chart_data": {
+      "chart_title": "Untitled",
+      "Chart_Type": "Scatter Plot",
+      "Orientation": "Landscape",
+      "chart_aspect_ratio": 1.6,
+      "x_axis_label": "(\u03a3LREE/\u03a3HREE)N",
+      "y_axis_label": "\u03a3REE",
+      "x_axis_min": 0.1,
+      "x_axis_max": 1000,
+      "Left_Y_axis_min": 10,
+      "Left_Y_axis_max": 100000,
+      "Right_Y_axis_min": null,
+      "Right_Y_axis_max": null,
+      "right_y_axis_label": "",
+      "y_axis_interval": null,
+      "x_axis_interval": null,
+      "x_axis_ticks": [
+        0.1,
+        1,
+        10,
+        100,
+        1000
+      ],
+      "y_axis_ticks": [
+        10,
+        100,
+        1000,
+        10000,
+        100000
+      ],
+      "data": [
+        {
+          "series": "Triangles - Hollow",
+          "color": "blue",
+          "line_style": "none",
+          "marker_type": "triangle",
+          "marker_fill": "hollow",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.8,
+              "y": 12000
+            },
+            {
+              "x": 1.1,
+              "y": 20000
+            },
+            {
+              "x": 1.5,
+              "y": 25000
+            },
+            {
+              "x": 2.0,
+              "y": 15000
+            }
+          ]
+        },
+        {
+          "series": "Triangles - Grey",
+          "color": "grey",
+          "line_style": "none",
+          "marker_type": "triangle",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.7,
+              "y": 15000
+            },
+            {
+              "x": 1.0,
+              "y": 11000
+            },
+            {
+              "x": 1.8,
+              "y": 28000
+            }
+          ]
+        },
+        {
+          "series": "Triangles - Black",
+          "color": "black",
+          "line_style": "none",
+          "marker_type": "triangle",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.9,
+              "y": 10000
+            },
+            {
+              "x": 1.3,
+              "y": 10000
+            }
+          ]
+        },
+        {
+          "series": "Diamonds - Black",
+          "color": "black",
+          "line_style": "none",
+          "marker_type": "diamond",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 1.5,
+              "y": 10000
+            }
+          ]
+        },
+        {
+          "series": "Diamonds - Hollow",
+          "color": "green",
+          "line_style": "none",
+          "marker_type": "diamond",
+          "marker_fill": "hollow",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 2.5,
+              "y": 1500
+            },
+            {
+              "x": 3.0,
+              "y": 2000
+            },
+            {
+              "x": 3.5,
+              "y": 1800
+            },
+            {
+              "x": 4.0,
+              "y": 1200
+            }
+          ]
+        },
+        {
+          "series": "Squares - Hollow",
+          "color": "red",
+          "line_style": "none",
+          "marker_type": "square",
+          "marker_fill": "hollow",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.15,
+              "y": 500
+            },
+            {
+              "x": 0.3,
+              "y": 300
+            },
+            {
+              "x": 0.8,
+              "y": 1100
+            },
+            {
+              "x": 1.1,
+              "y": 900
+            }
+          ]
+        },
+        {
+          "series": "Squares - Grey",
+          "color": "grey",
+          "line_style": "none",
+          "marker_type": "square",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.18,
+              "y": 800
+            },
+            {
+              "x": 0.22,
+              "y": 900
+            },
+            {
+              "x": 0.25,
+              "y": 600
+            },
+            {
+              "x": 0.4,
+              "y": 1200
+            },
+            {
+              "x": 0.5,
+              "y": 1000
+            },
+            {
+              "x": 0.7,
+              "y": 1500
+            },
+            {
+              "x": 1.2,
+              "y": 800
+            }
+          ]
+        },
+        {
+          "series": "Squares - Black",
+          "color": "black",
+          "line_style": "none",
+          "marker_type": "square",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 0.2,
+              "y": 1200
+            },
+            {
+              "x": 0.45,
+              "y": 900
+            },
+            {
+              "x": 0.6,
+              "y": 1100
+            },
+            {
+              "x": 0.65,
+              "y": 1000
+            },
+            {
+              "x": 0.75,
+              "y": 1200
+            },
+            {
+              "x": 0.85,
+              "y": 950
+            },
+            {
+              "x": 0.9,
+              "y": 1100
+            }
+          ]
+        },
+        {
+          "series": "Circles - Hollow",
+          "color": "purple",
+          "line_style": "none",
+          "marker_type": "circle",
+          "marker_fill": "hollow",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 20,
+              "y": 7000
+            },
+            {
+              "x": 25,
+              "y": 7500
+            },
+            {
+              "x": 30,
+              "y": 7200
+            },
+            {
+              "x": 40,
+              "y": 7000
+            }
+          ]
+        },
+        {
+          "series": "Circles - Grey",
+          "color": "grey",
+          "line_style": "none",
+          "marker_type": "circle",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 80,
+              "y": 700
+            },
+            {
+              "x": 100,
+              "y": 800
+            }
+          ]
+        },
+        {
+          "series": "Circles - Black",
+          "color": "black",
+          "line_style": "none",
+          "marker_type": "circle",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 150,
+              "y": 6000
+            },
+            {
+              "x": 160,
+              "y": 4000
+            }
+          ]
+        },
+        {
+          "series": "X Markers",
+          "color": "cyan",
+          "line_style": "none",
+          "marker_type": "x",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 40,
+              "y": 100
+            },
+            {
+              "x": 45,
+              "y": 90
+            },
+            {
+              "x": 50,
+              "y": 110
+            },
+            {
+              "x": 55,
+              "y": 80
+            },
+            {
+              "x": 60,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "series": "Bar Marker",
+          "color": "magenta",
+          "line_style": "none",
+          "marker_type": "minus",
+          "marker_fill": "filled",
+          "marker_size": "medium",
+          "points": [
+            {
+              "x": 22,
+              "y": 1000
+            }
+          ]
+        },
+        {
+          "series": "Reference Line (~350\u00b0C)",
+          "color": "black",
+          "line_style": "dashed",
+          "marker_type": "none",
+          "marker_fill": "none",
+          "marker_size": "none",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 9000
+            },
+            {
+              "x": 1000,
+              "y": 9000
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "page": 5,
+    "element_id": 32,
+    "figure_type": "line_graph",
+    "image_path": "images/fig_p005_00.jpg",
+    "chart_data": [
+      {
+        "chart_title": "Untitled",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 2.1,
+        "x_axis_label": "",
+        "y_axis_label": "Sample/chondrite",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 1,
+        "Left_Y_axis_max": 1000000,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          1,
+          10,
+          100,
+          1000,
+          10000,
+          100000,
+          1000000
+        ],
+        "data": [
+          {
+            "series": "Monazite",
+            "color": "#000000",
+            "line_style": "solid",
+            "marker_type": "none",
+            "marker_fill": "filled",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 600000
+              },
+              {
+                "x": "Ce",
+                "y": 400000
+              },
+              {
+                "x": "Pr",
+                "y": 250000
+              },
+              {
+                "x": "Nd",
+                "y": 200000
+              },
+              {
+                "x": "Sm",
+                "y": 100000
+              },
+              {
+                "x": "Eu",
+                "y": 200
+              },
+              {
+                "x": "Gd",
+                "y": 50000
+              },
+              {
+                "x": "Tb",
+                "y": 40000
+              },
+              {
+                "x": "Dy",
+                "y": 30000
+              },
+              {
+                "x": "Ho",
+                "y": 20000
+              },
+              {
+                "x": "Er",
+                "y": 15000
+              },
+              {
+                "x": "Tm",
+                "y": 12000
+              },
+              {
+                "x": "Yb",
+                "y": 10000
+              },
+              {
+                "x": "Lu",
+                "y": 8000
+              }
+            ]
+          },
+          {
+            "series": "APS",
+            "color": "#808080",
+            "line_style": "solid",
+            "marker_type": "none",
+            "marker_fill": "filled",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 150000
+              },
+              {
+                "x": "Ce",
+                "y": 120000
+              },
+              {
+                "x": "Pr",
+                "y": 80000
+              },
+              {
+                "x": "Nd",
+                "y": 60000
+              },
+              {
+                "x": "Sm",
+                "y": 20000
+              },
+              {
+                "x": "Eu",
+                "y": 4000
+              },
+              {
+                "x": "Gd",
+                "y": 2000
+              },
+              {
+                "x": "Tb",
+                "y": 1000
+              },
+              {
+                "x": "Dy",
+                "y": 600
+              },
+              {
+                "x": "Ho",
+                "y": 400
+              },
+              {
+                "x": "Er",
+                "y": 300
+              },
+              {
+                "x": "Tm",
+                "y": 200
+              },
+              {
+                "x": "Yb",
+                "y": 150
+              },
+              {
+                "x": "Lu",
+                "y": 120
+              }
+            ]
+          },
+          {
+            "series": "G-2 granite",
+            "color": "#0000FF",
+            "line_style": "solid",
+            "marker_type": "square",
+            "marker_fill": "hollow",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 300
+              },
+              {
+                "x": "Ce",
+                "y": 200
+              },
+              {
+                "x": "Pr",
+                "y": 150
+              },
+              {
+                "x": "Nd",
+                "y": 100
+              },
+              {
+                "x": "Sm",
+                "y": 50
+              },
+              {
+                "x": "Eu",
+                "y": 8
+              },
+              {
+                "x": "Gd",
+                "y": 30
+              },
+              {
+                "x": "Tb",
+                "y": 15
+              },
+              {
+                "x": "Dy",
+                "y": 10
+              },
+              {
+                "x": "Ho",
+                "y": 8
+              },
+              {
+                "x": "Er",
+                "y": 6
+              },
+              {
+                "x": "Tm",
+                "y": 5
+              },
+              {
+                "x": "Yb",
+                "y": 4
+              },
+              {
+                "x": "Lu",
+                "y": 4
+              }
+            ]
+          },
+          {
+            "series": "Casto granite-IB",
+            "color": "#008000",
+            "line_style": "solid",
+            "marker_type": "circle",
+            "marker_fill": "hollow",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 150
+              },
+              {
+                "x": "Ce",
+                "y": 100
+              },
+              {
+                "x": "Pr",
+                "y": 80
+              },
+              {
+                "x": "Nd",
+                "y": 60
+              },
+              {
+                "x": "Sm",
+                "y": 40
+              },
+              {
+                "x": "Eu",
+                "y": 10
+              },
+              {
+                "x": "Gd",
+                "y": 15
+              },
+              {
+                "x": "Tb",
+                "y": 12
+              },
+              {
+                "x": "Dy",
+                "y": 10
+              },
+              {
+                "x": "Ho",
+                "y": 9
+              },
+              {
+                "x": "Er",
+                "y": 8
+              },
+              {
+                "x": "Tm",
+                "y": 7
+              },
+              {
+                "x": "Yb",
+                "y": 6
+              },
+              {
+                "x": "Lu",
+                "y": 5
+              }
+            ]
+          },
+          {
+            "series": "Tuff-YNP",
+            "color": "#FF0000",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "hollow",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 400
+              },
+              {
+                "x": "Ce",
+                "y": 300
+              },
+              {
+                "x": "Pr",
+                "y": 200
+              },
+              {
+                "x": "Nd",
+                "y": 120
+              },
+              {
+                "x": "Sm",
+                "y": 60
+              },
+              {
+                "x": "Eu",
+                "y": 20
+              },
+              {
+                "x": "Gd",
+                "y": 40
+              },
+              {
+                "x": "Tb",
+                "y": 25
+              },
+              {
+                "x": "Dy",
+                "y": 20
+              },
+              {
+                "x": "Ho",
+                "y": 18
+              },
+              {
+                "x": "Er",
+                "y": 15
+              },
+              {
+                "x": "Tm",
+                "y": 14
+              },
+              {
+                "x": "Yb",
+                "y": 13
+              },
+              {
+                "x": "Lu",
+                "y": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chart_title": "Untitled",
+        "Chart_Type": "Line Graph",
+        "Orientation": "Landscape",
+        "chart_aspect_ratio": 2.1,
+        "x_axis_label": "",
+        "y_axis_label": "Fluid/chondrite",
+        "x_axis_min": null,
+        "x_axis_max": null,
+        "Left_Y_axis_min": 0.0001,
+        "Left_Y_axis_max": 0.1,
+        "Right_Y_axis_min": null,
+        "Right_Y_axis_max": null,
+        "right_y_axis_label": "",
+        "y_axis_interval": null,
+        "x_axis_interval": null,
+        "x_axis_ticks": [
+          "La",
+          "Ce",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Eu",
+          "Gd",
+          "Tb",
+          "Dy",
+          "Ho",
+          "Er",
+          "Tm",
+          "Yb",
+          "Lu"
+        ],
+        "y_axis_ticks": [
+          0.0001,
+          0.001,
+          0.01,
+          0.1
+        ],
+        "data": [
+          {
+            "series": "Thermal springs-YNP",
+            "color": "#FF0000",
+            "line_style": "solid",
+            "marker_type": "triangle",
+            "marker_fill": "hollow",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 0.003
+              },
+              {
+                "x": "Ce",
+                "y": 0.0025
+              },
+              {
+                "x": "Pr",
+                "y": 0.0015
+              },
+              {
+                "x": "Nd",
+                "y": 0.0015
+              },
+              {
+                "x": "Sm",
+                "y": 0.0006
+              },
+              {
+                "x": "Eu",
+                "y": 0.0002
+              },
+              {
+                "x": "Gd",
+                "y": 0.0004
+              },
+              {
+                "x": "Tb",
+                "y": 0.0003
+              },
+              {
+                "x": "Dy",
+                "y": 0.00025
+              },
+              {
+                "x": "Ho",
+                "y": 0.00018
+              },
+              {
+                "x": "Er",
+                "y": 0.00015
+              },
+              {
+                "x": "Tm",
+                "y": 0.00013
+              },
+              {
+                "x": "Yb",
+                "y": 0.00012
+              }
+            ]
+          },
+          {
+            "series": "Thermal springs-IB",
+            "color": "#008000",
+            "line_style": "solid",
+            "marker_type": "circle",
+            "marker_fill": "hollow",
+            "marker_size": "medium",
+            "points": [
+              {
+                "x": "La",
+                "y": 0.025
+              },
+              {
+                "x": "Ce",
+                "y": 0.02
+              },
+              {
+                "x": "Pr",
+                "y": 0.015
+              },
+              {
+                "x": "Nd",
+                "y": 0.01
+              },
+              {
+                "x": "Sm",
+                "y": 0.006
+              },
+              {
+                "x": "Eu",
+                "y": 0.0012
+              },
+              {
+                "x": "Gd",
+                "y": 0.004
+              },
+              {
+                "x": "Tb",
+                "y": 0.0035
+              },
+              {
+                "x": "Dy",
+                "y": 0.003
+              },
+              {
+                "x": "Ho",
+                "y": 0.0028
+              },
+              {
+                "x": "Er",
+                "y": 0.0025
+              },
+              {
+                "x": "Tm",
+                "y": 0.0023
+              },
+              {
+                "x": "Yb",
+                "y": 0.002
+              },
+              {
+                "x": "Lu",
+                "y": 0.0022
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

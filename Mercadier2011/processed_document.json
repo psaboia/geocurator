@@ -4,7 +4,7 @@
   "sections": [
     {
       "id": 1,
-      "name": "Origin of uranium deposits revealed by their rare earth element signature",
+      "name": "ABSTRACT",
       "matter": "front",
       "level": "title",
       "parent_id": null,
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "name": "ABSTRACT",
+      "name": "Introduction",
       "matter": "front",
       "level": "section",
       "parent_id": null,
@@ -22,15 +22,6 @@
     },
     {
       "id": 3,
-      "name": "Introduction",
-      "matter": "body",
-      "level": "section",
-      "parent_id": null,
-      "start_page": 1,
-      "end_page": 1
-    },
-    {
-      "id": 4,
       "name": "Previous developments and considerations",
       "matter": "body",
       "level": "section",
@@ -39,43 +30,43 @@
       "end_page": 1
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Results",
       "matter": "body",
       "level": "section",
       "parent_id": null,
       "start_page": 2,
-      "end_page": 4
+      "end_page": 3
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Controls on REE incorporation in uranium oxides",
       "matter": "body",
       "level": "subsection",
-      "parent_id": 5,
+      "parent_id": 4,
       "start_page": 2,
       "end_page": 3
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Development perspectives for forensic purpose",
       "matter": "body",
-      "level": "subsection",
-      "parent_id": 5,
+      "level": "section",
+      "parent_id": null,
       "start_page": 4,
       "end_page": 4
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Conclusions",
-      "matter": "body",
+      "matter": "back",
       "level": "section",
       "parent_id": null,
       "start_page": 5,
       "end_page": 5
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Supporting Information",
       "matter": "back",
       "level": "section",
@@ -116,7 +107,7 @@
               "y2": 128
             }
           ],
-          "section_id": 1,
+          "section_id": null,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -144,7 +135,7 @@
               "y2": 178
             }
           ],
-          "section_id": 1,
+          "section_id": null,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -172,7 +163,7 @@
               "y2": 203
             }
           ],
-          "section_id": 1,
+          "section_id": null,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -200,7 +191,7 @@
               "y2": 235
             }
           ],
-          "section_id": 2,
+          "section_id": 1,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -228,7 +219,7 @@
               "y2": 375
             }
           ],
-          "section_id": 2,
+          "section_id": 1,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -256,7 +247,7 @@
               "y2": 348
             }
           ],
-          "section_id": 2,
+          "section_id": 1,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -284,7 +275,7 @@
               "y2": 374
             }
           ],
-          "section_id": 2,
+          "section_id": 1,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -312,7 +303,7 @@
               "y2": 433
             }
           ],
-          "section_id": 3,
+          "section_id": 2,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -340,7 +331,7 @@
               "y2": 743
             }
           ],
-          "section_id": 3,
+          "section_id": 2,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -368,7 +359,7 @@
               "y2": 809
             }
           ],
-          "section_id": 3,
+          "section_id": 2,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -396,7 +387,7 @@
               "y2": 833
             }
           ],
-          "section_id": 3,
+          "section_id": 2,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -424,7 +415,7 @@
               "y2": 882
             }
           ],
-          "section_id": 4,
+          "section_id": 3,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -452,7 +443,7 @@
               "y2": 915
             }
           ],
-          "section_id": 4,
+          "section_id": 3,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -460,7 +451,7 @@
           "chart_data": null
         }
       ],
-      "markdown_content": "# Origin of uranium deposits revealed by their rare earth element signature  \n\n\nJulien Mercadier, Michel Cuney, Philippe Lach, Marie- Christine Boiron, Jessica Bonhoure, Antonio Richard, Mathieu Leisen and Philippe Kister  \n\n\nG2R, Nancy- Universit\u00e9, CNRS, CREGU, Boulevard des Aiguillettes, B.P. 239, F- 54506 Vand\u0153uvre l\u00e8s Nancy, France; Present address: Institut Polytechnique LaSalle Beauvais, 19 rue Pierre Waguet, B.P. 30313, F- 60026 Beauvais, France  \n\n\n## ABSTRACT  \n\n\nUranium deposits form in a wide range of geological settings, including deep magmatic to surficial conditions, and range in age from Archaean to recent. These temporal and spatial variations have given rise to an extreme diversity of ore deposits. However, understanding their conditions of formation has remained challenging. This article reports rare earth element (REE) abundances, measured by microbeam methods in uranium oxides, for a series of worldwide uranium occurrences. The REE patterns are very specific to each deposit type and directly reflect the conditions of their  \n\n\ngenesis. We propose an evaluation of the first- order parameters controlling the REE behaviour in each mineralised system. This study demonstrates that the REE pattern is the most efficient tool for constraining the geological models of uranium deposits and for genetically discriminating new uranium discoveries. This approach may form the starting point for a new procedure in the fight against nuclear trafficking.  \n\n\nTerra Nova, 23, 264- 269, 2011  \n\n\n## Introduction  \n\n\nUranium ores are the indispensable raw material for nuclear fuel preparation and are currently heavily prospected. Unlike the majority of metals, the metallogeny of uranium is specifically characterised by an extreme diversity of deposits that are directly related to the various conditions under which U deposits formed in geological environments (Cuney, 2009). More than 800 uranium deposits are identified globally and at least 16 deposit types are referenced by the International Atomic Energy Agency (IAEA, 2009). The current classifications, however, do not provide meaningful indications to understand the formation of uranium deposits and, thus, to genetically discriminate them. Furthermore, to date, no link between uranium oxide geochemistry and the genetic conditions for uranium oxide formation has been clearly established.  \n\n\nUranium oxides, ideally \\(\\mathrm{UO_2}\\) termed uraninite or pitchblende for the high temperature and collomorph low temperature varieties, respectively, are the most common and abundant  \n\n\ncomponents of uranium ores. They incorporate variable quantities of trace elements during their crystallisation, possibly demonstrating the diversity of the physical- chemical characteristics (e.g. temperature or fluid composition) of the mineralising fluids (Janeczek and Ewing, 1992). However, the composition of the uranium oxides (primary plus radiogenic elements) is frequently modified by post- depositional re- equilibration with later fluids under variable physical- chemical conditions (Alexandre and Kyser, 2005), thus limiting the accuracy of U, O or Pb isotope ratios and U- Th- Pb ages (Fayek et al., 2002; Brennecka et al., 2010) as a tool to discriminate uranium deposit types. An underexplored, but potentially powerful tool to understand the formation of uranium deposits is the rare earth element (REE) composition of U- oxides. Indeed, the fractionation of REEs is particularly interesting in uranium oxides, because they are less sensitive to redox changes and their ionic radii (1.16- 0.977 \u00c5) are close to that of \\(\\mathrm{U}^{4 + }\\) (1 \u00c5) in eightfold coordination (Shannon, 1976), which allows them to easily substitute for U with only minor modification by post- crystallisation events.  \n\n\n## Previous developments and considerations  \n\n<|ref|>text<|/ref|><|det|>[[360, 889, 606, 915], [630, 415, 877, 609]]<|/det|>\nPioneer determinations of REE contents within uranium oxides (Fryer and Taylor, 1987; Pagel et al., 1987; Maas and McCulloch, 1990; Hidaka et al., 1992; Hidaka and Gauthier- Lafaye, 2001), although highly promising, were limited by: (i) the small number of uranium deposit types considered; (ii) the small number of analyses available for each deposit type; (iii) the sensitivity and accuracy of REE analyses due to technical limitations; (iv) the lack of discrimination between altered and unaltered zones in the studied samples; and (v) the lack of genetic constraints on the studied deposits.   \n\n\nDecisive advances in REE analysis in uranium oxides have resulted from the recent development of microbeam analysis by secondary ion mass spectrometry (SIMS; Bonhoure et al., 2007). In the present article, further improvements by laser ablation inductively coupled plasma mass spectrometry (LA- ICPMS) analysis are presented. The full analytical details for this technique are given elsewhere (see Supplementary Material). Compared to previously used techniques, LA- ICPMS allows fast analysis of areas down to a diameter of \\(5 \\mu \\mathrm{m}\\) , at a much faster rate, and without interferences between REEs (Figure S1). The application of these microbeam methods (SIMS and LA- ICPMS) now allows the creation of a large and robust database of REE distribution in uranium oxides from major deposit types whose genetic conditions are"
+      "markdown_content": "# Origin of uranium deposits revealed by their rare earth element signature  \n\n\nJulien Mercadier, Michel Cuney, Philippe Lach, Marie- Christine Boiron, Jessica Bonhoure, Antonio Richard, Mathieu Leisen and Philippe Kister  \n\n\nG2R, Nancy- Université, CNRS, CREGU, Boulevard des Aiguillettes, B.P. 239, F- 54506 Vandœuvre lès Nancy, France; Present address: Institut Polytechnique LaSalle Beauvais, 19 rue Pierre Waguet, B.P. 30313, F- 60026 Beauvais, France  \n\n\n## ABSTRACT  \n\n\nUranium deposits form in a wide range of geological settings, including deep magmatic to surficial conditions, and range in age from Archaean to recent. These temporal and spatial variations have given rise to an extreme diversity of ore deposits. However, understanding their conditions of formation has remained challenging. This article reports rare earth element (REE) abundances, measured by microbeam methods in uranium oxides, for a series of worldwide uranium occurrences. The REE patterns are very specific to each deposit type and directly reflect the conditions of their  \n\n\ngenesis. We propose an evaluation of the first- order parameters controlling the REE behaviour in each mineralised system. This study demonstrates that the REE pattern is the most efficient tool for constraining the geological models of uranium deposits and for genetically discriminating new uranium discoveries. This approach may form the starting point for a new procedure in the fight against nuclear trafficking.  \n\n\nTerra Nova, 23, 264- 269, 2011  \n\n\n## Introduction  \n\n\nUranium ores are the indispensable raw material for nuclear fuel preparation and are currently heavily prospected. Unlike the majority of metals, the metallogeny of uranium is specifically characterised by an extreme diversity of deposits that are directly related to the various conditions under which U deposits formed in geological environments (Cuney, 2009). More than 800 uranium deposits are identified globally and at least 16 deposit types are referenced by the International Atomic Energy Agency (IAEA, 2009). The current classifications, however, do not provide meaningful indications to understand the formation of uranium deposits and, thus, to genetically discriminate them. Furthermore, to date, no link between uranium oxide geochemistry and the genetic conditions for uranium oxide formation has been clearly established.  \n\n\nUranium oxides, ideally \\(\\mathrm{UO_2}\\) termed uraninite or pitchblende for the high temperature and collomorph low temperature varieties, respectively, are the most common and abundant  \n\n\ncomponents of uranium ores. They incorporate variable quantities of trace elements during their crystallisation, possibly demonstrating the diversity of the physical- chemical characteristics (e.g. temperature or fluid composition) of the mineralising fluids (Janeczek and Ewing, 1992). However, the composition of the uranium oxides (primary plus radiogenic elements) is frequently modified by post- depositional re- equilibration with later fluids under variable physical- chemical conditions (Alexandre and Kyser, 2005), thus limiting the accuracy of U, O or Pb isotope ratios and U- Th- Pb ages (Fayek et al., 2002; Brennecka et al., 2010) as a tool to discriminate uranium deposit types. An underexplored, but potentially powerful tool to understand the formation of uranium deposits is the rare earth element (REE) composition of U- oxides. Indeed, the fractionation of REEs is particularly interesting in uranium oxides, because they are less sensitive to redox changes and their ionic radii (1.16- 0.977 Å) are close to that of \\(\\mathrm{U}^{4 + }\\) (1 Å) in eightfold coordination (Shannon, 1976), which allows them to easily substitute for U with only minor modification by post- crystallisation events.  \n\n\n## Previous developments and considerations  \n\n<|ref|>text<|/ref|><|det|>[[360, 889, 606, 915], [630, 415, 877, 609]]<|/det|>\nPioneer determinations of REE contents within uranium oxides (Fryer and Taylor, 1987; Pagel et al., 1987; Maas and McCulloch, 1990; Hidaka et al., 1992; Hidaka and Gauthier- Lafaye, 2001), although highly promising, were limited by: (i) the small number of uranium deposit types considered; (ii) the small number of analyses available for each deposit type; (iii) the sensitivity and accuracy of REE analyses due to technical limitations; (iv) the lack of discrimination between altered and unaltered zones in the studied samples; and (v) the lack of genetic constraints on the studied deposits.   \n\n\nDecisive advances in REE analysis in uranium oxides have resulted from the recent development of microbeam analysis by secondary ion mass spectrometry (SIMS; Bonhoure et al., 2007). In the present article, further improvements by laser ablation inductively coupled plasma mass spectrometry (LA- ICPMS) analysis are presented. The full analytical details for this technique are given elsewhere (see Supplementary Material). Compared to previously used techniques, LA- ICPMS allows fast analysis of areas down to a diameter of \\(5 \\mu \\mathrm{m}\\) , at a much faster rate, and without interferences between REEs (Figure S1). The application of these microbeam methods (SIMS and LA- ICPMS) now allows the creation of a large and robust database of REE distribution in uranium oxides from major deposit types whose genetic conditions are"
     },
     {
       "sequence_number": 2,
@@ -493,7 +484,7 @@
               "y2": 190
             }
           ],
-          "section_id": 4,
+          "section_id": 3,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -521,7 +512,7 @@
               "y2": 222
             }
           ],
-          "section_id": 5,
+          "section_id": 4,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -549,7 +540,7 @@
               "y2": 376
             }
           ],
-          "section_id": 5,
+          "section_id": 4,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -577,7 +568,7 @@
               "y2": 421
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -605,7 +596,7 @@
               "y2": 533
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -633,11 +624,11 @@
               "y2": 844
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": "<table><tr><td>Location</td><td>Type</td><td>Count</td></tr><tr><td>Athabasca</td><td>Magnetic</td><td>1</td></tr><tr><td>Moore L</td><td>Magnetic</td><td>1</td></tr><tr><td>Mistamisk</td><td>Unconformity-related</td><td>1</td></tr><tr><td>Luthi</td><td>Unconformity-related</td><td>1</td></tr><tr><td>Kola</td><td>Unconformity-related</td><td>1</td></tr><tr><td>Streltsovskoye</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Kazakhstan</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Kawanga</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Kambolgie</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Unconformity-related</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Vein-type</td><td>Volcanic-related</td><td>1</td></tr><tr><td>Roll-front</td><td>Volcanic-related</td><td>1</td></tr></table>",
           "figure_type": "map",
-          "figure_description": "The figure is a map showing the locations of different types of uranium deposits around the world. The deposit types are indicated by different symbols and include magmatic, unconformity-related, synmetamorphic, vein-type, volcanic-related, and roll-front deposits.",
+          "figure_description": "The figure is a world map showing the locations and types of uranium deposits. Different symbols represent different types of deposits, such as magmatic, unconformity-related, synmetamorphic, vein-type, volcanic-related, and roll-front deposits.",
           "chart_data": null
         },
         {
@@ -661,7 +652,7 @@
               "y2": 916
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": 19,
           "parsed_content": null,
           "figure_type": null,
@@ -689,11 +680,11 @@
               "y2": 450
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
-          "parsed_content": "The image displays two separate scientific diagrams, labeled (A) and (B), each depicting a cross-sectional view of a geological formation. Both diagrams are in grayscale, with varying shades indicating different materials or geological features.\n\nIn diagram (A), the top portion of the image shows a detailed cross-section of a geological formation with various layers and structures. The layers are labeled with numbers 1 through 9, and the diagram includes annotations such as \"McArthur river,\" \"Unconformity-related,\" and \"Overgrowth.\" The core of the formation is marked with a number 1, and the alteration zone is indicated with a number 2. The diagram also includes a scale bar at the bottom, showing a measurement of 500 \u00b5m.\n\nDiagram (B) presents a similar cross-section but with a different set of annotations. The layers are labeled with numbers 1 through 9, and the diagram includes annotations such as \"Luthi Magmatic,\" \"Core,\" and \"Alteration band.\" The core is marked with a number 1, and the alteration band is indicated with a number 2. The scale bar at the bottom shows a measurement of 30 \u00b5m.\n\nBoth diagrams include a legend with the text \"Pb depleted, Ca-Si enriched,\" suggesting that the formation has undergone some form of metal enrichment. The diagrams are likely used to illustrate the geological processes and structures within the formation, such as the presence of different rock types and the extent of alteration or metal enrichment.",
+          "parsed_content": "The image displays two separate scientific diagrams, labeled (A) and (B), each depicting a cross-sectional view of a geological formation. Both diagrams are in grayscale, with varying shades indicating different materials or geological features.\n\nIn diagram (A), the top portion of the image shows a detailed cross-section of a geological formation with various layers and structures. The layers are labeled with numbers 1 through 9, and the diagram includes annotations such as \"McArthur river,\" \"Unconformity-related,\" and \"Overgrowth.\" The core of the formation is marked with a number 1, and the alteration zone is indicated with a number 2. The diagram also includes a scale bar at the bottom, showing a measurement of 500 µm.\n\nDiagram (B) presents a similar cross-section but with a different set of annotations. The layers are labeled with numbers 1 through 9, and the diagram includes annotations such as \"Luthi Magmatic,\" \"Core,\" and \"Alteration band.\" The core is marked with a number 1, and the alteration band is indicated with a number 2. The scale bar at the bottom shows a measurement of 30 µm.\n\nBoth diagrams include a legend with the text \"Pb depleted, Ca-Si enriched,\" suggesting that the formation has undergone some form of metal enrichment. The diagrams are likely used to illustrate the geological processes and structures within the formation, such as the presence of different rock types and the extent of alteration or metal enrichment.",
           "figure_type": "micrograph",
-          "figure_description": "The figure shows micrographs of zircon grains illustrating their internal structure and age variations. Part A presents a zircon from the McArthur River area, highlighting core, alteration zone, and overgrowth features, while part B shows a zircon from the Luthi Magmatic area with core and alteration band characteristics.",
+          "figure_description": "The figure shows backscattered electron (BSE) images of zircons. The images illustrate the internal structures of the zircons, highlighting core, alteration zones, and overgrowth borders, along with their corresponding ages in Ma (millions of years).",
           "chart_data": null
         },
         {
@@ -717,7 +708,7 @@
               "y2": 647
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": 21,
           "parsed_content": null,
           "figure_type": null,
@@ -745,7 +736,7 @@
               "y2": 915
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -786,22 +777,22 @@
               "y2": 612
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": "line_graph",
-          "figure_description": "The figure presents chondrite-normalized rare earth element (REE) patterns for different ore deposit types and fluid sources. The graphs illustrate the REE abundance relative to chondrite in various geological settings, providing insights into the fluid chemistry and genetic processes of ore formation.",
+          "figure_description": "The figure shows rare earth element (REE) patterns in different geological settings, including intrusive, synmetamorphic, unconformity-related, vein-type, roll-front, and volcanic-related deposits. The REE concentrations are plotted against the lanthanide series (La to Lu) for various rock and fluid samples, providing insights into their geochemical characteristics and origin.",
           "chart_data": [
             {
               "chart_title": "Intrusive",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
               "x_axis_max": null,
-              "Left_Y_axis_min": 10,
+              "Left_Y_axis_min": 1,
               "Left_Y_axis_max": 100000,
               "Right_Y_axis_min": null,
               "Right_Y_axis_max": null,
@@ -825,6 +816,7 @@
                 "Lu"
               ],
               "y_axis_ticks": [
+                1,
                 10,
                 100,
                 1000,
@@ -833,7 +825,7 @@
               ],
               "data": [
                 {
-                  "series": "Moore Lake",
+                  "series": "Moore Lake group",
                   "x": [
                     "La",
                     "Ce",
@@ -851,29 +843,29 @@
                     "Lu"
                   ],
                   "y": [
-                    20000,
-                    40000,
-                    10000,
+                    18000,
+                    25000,
+                    12000,
                     30000,
-                    8000,
-                    1000,
-                    10000,
-                    2000,
+                    12000,
+                    1800,
                     15000,
-                    3000,
-                    10000,
-                    1500,
-                    10000,
-                    1000
+                    2500,
+                    18000,
+                    3500,
+                    15000,
+                    2500,
+                    18000,
+                    2500
                   ],
-                  "color": "#000000",
+                  "color": "blue",
                   "line_style": "solid",
                   "marker_type": "triangle",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 },
                 {
-                  "series": "Luthi",
+                  "series": "Rössing group",
                   "x": [
                     "La",
                     "Ce",
@@ -891,29 +883,69 @@
                     "Lu"
                   ],
                   "y": [
-                    8000,
-                    20000,
-                    6000,
-                    20000,
                     5000,
+                    10000,
+                    6000,
+                    15000,
+                    6000,
                     800,
                     8000,
-                    1500,
+                    1200,
                     10000,
                     2000,
                     8000,
-                    1000,
-                    8000,
-                    800
+                    1200,
+                    10000,
+                    1200
                   ],
-                  "color": "#888888",
+                  "color": "green",
+                  "line_style": "solid",
+                  "marker_type": "triangle",
+                  "marker_fill": "filled",
+                  "marker_size": "small"
+                },
+                {
+                  "series": "Luthi group",
+                  "x": [
+                    "La",
+                    "Ce",
+                    "Pr",
+                    "Nd",
+                    "Sm",
+                    "Eu",
+                    "Gd",
+                    "Tb",
+                    "Dy",
+                    "Ho",
+                    "Er",
+                    "Tm",
+                    "Yb",
+                    "Lu"
+                  ],
+                  "y": [
+                    8000,
+                    15000,
+                    8000,
+                    20000,
+                    9000,
+                    1500,
+                    12000,
+                    2000,
+                    15000,
+                    3000,
+                    12000,
+                    2000,
+                    15000,
+                    2000
+                  ],
+                  "color": "orange",
                   "line_style": "solid",
                   "marker_type": "triangle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 },
                 {
-                  "series": "R\u00f6ssing",
+                  "series": "Kola group",
                   "x": [
                     "La",
                     "Ce",
@@ -932,65 +964,25 @@
                   ],
                   "y": [
                     1000,
-                    10000,
-                    3000,
-                    15000,
+                    2000,
+                    1200,
                     4000,
+                    2000,
+                    300,
+                    3000,
                     500,
-                    6000,
-                    1000,
-                    8000,
-                    1500,
-                    5000,
+                    4000,
                     800,
-                    5000,
+                    3500,
+                    500,
+                    4000,
                     500
                   ],
-                  "color": "#555555",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Kola",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    200,
-                    2000,
-                    500,
-                    2000,
-                    500,
-                    100,
-                    800,
-                    150,
-                    1000,
-                    200,
-                    800,
-                    100,
-                    800,
-                    100
-                  ],
-                  "color": "#BBBBBB",
+                  "color": "red",
                   "line_style": "solid",
                   "marker_type": "triangle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 }
               ]
             },
@@ -998,12 +990,12 @@
               "chart_title": "Synmetamorphic",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
               "x_axis_max": null,
-              "Left_Y_axis_min": 10,
+              "Left_Y_axis_min": 1,
               "Left_Y_axis_max": 100000,
               "Right_Y_axis_min": null,
               "Right_Y_axis_max": null,
@@ -1027,6 +1019,7 @@
                 "Lu"
               ],
               "y_axis_ticks": [
+                1,
                 10,
                 100,
                 1000,
@@ -1035,7 +1028,7 @@
               ],
               "data": [
                 {
-                  "series": "Mistamisk",
+                  "series": "Mistamisk group",
                   "x": [
                     "La",
                     "Ce",
@@ -1053,29 +1046,29 @@
                     "Lu"
                   ],
                   "y": [
-                    300,
-                    1000,
-                    300,
-                    1000,
-                    500,
-                    200,
-                    800,
-                    200,
-                    1000,
-                    300,
-                    800,
-                    150,
-                    800,
-                    100
+                    3000,
+                    4000,
+                    5000,
+                    8000,
+                    6000,
+                    4000,
+                    8000,
+                    1500,
+                    10000,
+                    2000,
+                    8000,
+                    1200,
+                    6000,
+                    800
                   ],
-                  "color": "#000000",
+                  "color": "purple",
                   "line_style": "solid",
                   "marker_type": "diamond",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 },
                 {
-                  "series": "Kawanga",
+                  "series": "Kawanga group",
                   "x": [
                     "La",
                     "Ce",
@@ -1094,25 +1087,25 @@
                   ],
                   "y": [
                     200,
-                    500,
-                    150,
-                    500,
-                    200,
-                    100,
                     300,
-                    80,
-                    500,
-                    100,
+                    300,
+                    800,
                     400,
-                    60,
-                    300,
-                    40
+                    200,
+                    500,
+                    100,
+                    600,
+                    120,
+                    500,
+                    80,
+                    400,
+                    50
                   ],
-                  "color": "#888888",
+                  "color": "brown",
                   "line_style": "solid",
                   "marker_type": "diamond",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 }
               ]
             },
@@ -1120,7 +1113,7 @@
               "chart_title": "Unconformity-related Unconformity-hosted",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
@@ -1157,7 +1150,7 @@
               ],
               "data": [
                 {
-                  "series": "Hollow Squares 1",
+                  "series": "Cigar Lake group",
                   "x": [
                     "La",
                     "Ce",
@@ -1175,189 +1168,69 @@
                     "Lu"
                   ],
                   "y": [
-                    100,
-                    200,
-                    50,
-                    200,
+                    30,
+                    80,
+                    150,
+                    300,
                     500,
-                    2000,
+                    800,
+                    1500,
+                    300,
                     2000,
                     400,
                     1500,
-                    300,
-                    800,
-                    100,
-                    500,
-                    60
-                  ],
-                  "color": "#CCCCCC",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Cigar Lake",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    50,
-                    100,
-                    30,
-                    100,
-                    200,
-                    1000,
-                    1500,
-                    300,
-                    1000,
-                    200,
-                    500,
-                    80,
-                    300,
-                    40
-                  ],
-                  "color": "#AAAAAA",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Hollow Squares 2",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    20,
-                    40,
-                    10,
-                    40,
-                    100,
-                    500,
-                    800,
-                    150,
-                    500,
-                    100,
-                    300,
-                    40,
-                    200,
-                    30
-                  ],
-                  "color": "#888888",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Filled Squares 1",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    10,
-                    30,
-                    8,
-                    30,
-                    150,
-                    1000,
-                    1200,
                     250,
                     1000,
+                    150
+                  ],
+                  "color": "cyan",
+                  "line_style": "solid",
+                  "marker_type": "square",
+                  "marker_fill": "hollow",
+                  "marker_size": "small"
+                },
+                {
+                  "series": "McArthur River group",
+                  "x": [
+                    "La",
+                    "Ce",
+                    "Pr",
+                    "Nd",
+                    "Sm",
+                    "Eu",
+                    "Gd",
+                    "Tb",
+                    "Dy",
+                    "Ho",
+                    "Er",
+                    "Tm",
+                    "Yb",
+                    "Lu"
+                  ],
+                  "y": [
+                    5,
+                    10,
+                    12,
+                    20,
+                    80,
                     200,
                     500,
-                    80,
-                    300,
-                    40
-                  ],
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "McArthur River",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    8,
-                    20,
-                    5,
-                    20,
                     100,
-                    800,
-                    1000,
-                    200,
                     800,
                     150,
-                    400,
-                    60,
-                    200,
-                    30
+                    600,
+                    100,
+                    500,
+                    80
                   ],
-                  "color": "#333333",
+                  "color": "magenta",
                   "line_style": "solid",
                   "marker_type": "square",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 },
                 {
-                  "series": "Sue",
+                  "series": "Sue group",
                   "x": [
                     "La",
                     "Ce",
@@ -1375,66 +1248,26 @@
                     "Lu"
                   ],
                   "y": [
-                    1.5,
-                    4,
-                    1,
-                    5,
-                    20,
-                    100,
-                    100,
-                    20,
-                    100,
-                    20,
-                    50,
                     8,
-                    30,
-                    4
-                  ],
-                  "color": "#666666",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Filled Squares 2",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    1,
-                    2,
-                    0.8,
-                    3,
-                    10,
-                    50,
-                    50,
-                    10,
-                    50,
-                    10,
-                    30,
-                    5,
                     20,
+                    30,
+                    50,
+                    30,
+                    10,
+                    20,
+                    4,
+                    30,
+                    6,
+                    20,
+                    4,
+                    15,
                     3
                   ],
-                  "color": "#999999",
+                  "color": "yellow",
                   "line_style": "solid",
                   "marker_type": "square",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 }
               ]
             },
@@ -1442,7 +1275,7 @@
               "chart_title": "Unconformity-related Basement-hosted",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
@@ -1479,7 +1312,47 @@
               ],
               "data": [
                 {
-                  "series": "Hollow Squares 1",
+                  "series": "Koongarra Eagle Point group",
+                  "x": [
+                    "La",
+                    "Ce",
+                    "Pr",
+                    "Nd",
+                    "Sm",
+                    "Eu",
+                    "Gd",
+                    "Tb",
+                    "Dy",
+                    "Ho",
+                    "Er",
+                    "Tm",
+                    "Yb",
+                    "Lu"
+                  ],
+                  "y": [
+                    100,
+                    200,
+                    300,
+                    600,
+                    800,
+                    1200,
+                    2000,
+                    400,
+                    3000,
+                    600,
+                    2000,
+                    300,
+                    1500,
+                    200
+                  ],
+                  "color": "blue",
+                  "line_style": "solid",
+                  "marker_type": "square",
+                  "marker_fill": "hollow",
+                  "marker_size": "small"
+                },
+                {
+                  "series": "Millennium group",
                   "x": [
                     "La",
                     "Ce",
@@ -1498,28 +1371,28 @@
                   ],
                   "y": [
                     20,
-                    50,
-                    15,
-                    50,
-                    100,
-                    300,
-                    500,
-                    100,
-                    500,
-                    100,
-                    300,
                     40,
+                    60,
+                    150,
+                    300,
+                    500,
+                    1000,
                     200,
-                    30
+                    1500,
+                    300,
+                    1000,
+                    150,
+                    800,
+                    120
                   ],
-                  "color": "#CCCCCC",
+                  "color": "green",
                   "line_style": "solid",
                   "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_fill": "filled",
+                  "marker_size": "small"
                 },
                 {
-                  "series": "Koongarra Eagle Point",
+                  "series": "Nabarlek group",
                   "x": [
                     "La",
                     "Ce",
@@ -1537,226 +1410,26 @@
                     "Lu"
                   ],
                   "y": [
-                    10,
-                    30,
                     8,
+                    20,
                     30,
-                    60,
-                    200,
+                    80,
+                    100,
+                    150,
                     300,
                     60,
-                    300,
-                    60,
-                    200,
-                    30,
-                    150,
-                    20
-                  ],
-                  "color": "#AAAAAA",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Hollow Squares 2",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    5,
-                    15,
-                    4,
-                    15,
-                    30,
-                    100,
-                    150,
-                    30,
-                    150,
-                    30,
-                    100,
-                    15,
-                    80,
-                    10
-                  ],
-                  "color": "#888888",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Nabarlek",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    40,
-                    100,
-                    30,
-                    100,
-                    200,
                     500,
-                    800,
-                    150,
-                    800,
-                    150,
-                    500,
-                    80,
+                    100,
                     400,
+                    60,
+                    300,
                     50
                   ],
-                  "color": "#000000",
+                  "color": "red",
                   "line_style": "solid",
                   "marker_type": "square",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Filled Squares 1",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    30,
-                    80,
-                    20,
-                    80,
-                    150,
-                    400,
-                    600,
-                    100,
-                    600,
-                    100,
-                    400,
-                    60,
-                    300,
-                    40
-                  ],
-                  "color": "#333333",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Millennium",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    20,
-                    50,
-                    15,
-                    50,
-                    100,
-                    300,
-                    400,
-                    80,
-                    400,
-                    80,
-                    300,
-                    40,
-                    200,
-                    30
-                  ],
-                  "color": "#666666",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Filled Squares 2",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    8,
-                    20,
-                    5,
-                    20,
-                    40,
-                    100,
-                    150,
-                    30,
-                    150,
-                    30,
-                    100,
-                    15,
-                    80,
-                    10
-                  ],
-                  "color": "#999999",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 }
               ]
             },
@@ -1764,7 +1437,7 @@
               "chart_title": "Vein-type",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
@@ -1801,7 +1474,87 @@
               ],
               "data": [
                 {
-                  "series": "Bois Noirs",
+                  "series": "Bois Noirs group",
+                  "x": [
+                    "La",
+                    "Ce",
+                    "Pr",
+                    "Nd",
+                    "Sm",
+                    "Eu",
+                    "Gd",
+                    "Tb",
+                    "Dy",
+                    "Ho",
+                    "Er",
+                    "Tm",
+                    "Yb",
+                    "Lu"
+                  ],
+                  "y": [
+                    8000,
+                    6000,
+                    4000,
+                    2000,
+                    300,
+                    100,
+                    800,
+                    150,
+                    400,
+                    80,
+                    300,
+                    50,
+                    300,
+                    40
+                  ],
+                  "color": "orange",
+                  "line_style": "solid",
+                  "marker_type": "circle",
+                  "marker_fill": "hollow",
+                  "marker_size": "small"
+                },
+                {
+                  "series": "Commanderie group",
+                  "x": [
+                    "La",
+                    "Ce",
+                    "Pr",
+                    "Nd",
+                    "Sm",
+                    "Eu",
+                    "Gd",
+                    "Tb",
+                    "Dy",
+                    "Ho",
+                    "Er",
+                    "Tm",
+                    "Yb",
+                    "Lu"
+                  ],
+                  "y": [
+                    3000,
+                    2500,
+                    1500,
+                    800,
+                    150,
+                    50,
+                    400,
+                    80,
+                    200,
+                    40,
+                    150,
+                    30,
+                    150,
+                    25
+                  ],
+                  "color": "purple",
+                  "line_style": "solid",
+                  "marker_type": "circle",
+                  "marker_fill": "hollow",
+                  "marker_size": "small"
+                },
+                {
+                  "series": "Ecarpière group",
                   "x": [
                     "La",
                     "Ce",
@@ -1820,185 +1573,25 @@
                   ],
                   "y": [
                     1500,
-                    2000,
                     1000,
-                    2000,
-                    1000,
-                    200,
-                    1000,
-                    200,
-                    800,
-                    200,
-                    500,
-                    80,
-                    400,
-                    50
-                  ],
-                  "color": "#AAAAAA",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Hollow Circles 1",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    800,
-                    1000,
-                    500,
-                    1000,
-                    500,
-                    100,
-                    500,
-                    100,
-                    400,
-                    100,
+                    600,
                     300,
                     50,
-                    300,
-                    40
-                  ],
-                  "color": "#888888",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Commanderie",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    300,
-                    400,
-                    200,
-                    400,
-                    200,
-                    40,
-                    200,
-                    40,
-                    200,
-                    40,
+                    20,
                     100,
                     20,
-                    80,
-                    15
-                  ],
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Ecarpi\u00e8re",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    100,
-                    150,
-                    80,
-                    150,
-                    80,
-                    20,
-                    80,
-                    20,
-                    80,
-                    20,
                     50,
-                    8,
-                    40,
-                    8
-                  ],
-                  "color": "#555555",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "filled",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Filled Circles 1",
-                  "x": [
-                    "La",
-                    "Ce",
-                    "Pr",
-                    "Nd",
-                    "Sm",
-                    "Eu",
-                    "Gd",
-                    "Tb",
-                    "Dy",
-                    "Ho",
-                    "Er",
-                    "Tm",
-                    "Yb",
-                    "Lu"
-                  ],
-                  "y": [
-                    50,
-                    80,
-                    40,
-                    80,
-                    40,
                     10,
-                    40,
-                    10,
-                    40,
-                    10,
-                    20,
-                    4,
+                    30,
+                    6,
                     20,
                     4
                   ],
-                  "color": "#999999",
+                  "color": "brown",
                   "line_style": "solid",
                   "marker_type": "circle",
                   "marker_fill": "filled",
-                  "marker_size": "medium"
+                  "marker_size": "small"
                 }
               ]
             },
@@ -2006,7 +1599,7 @@
               "chart_title": "Roll-front",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "",
               "y_axis_label": "",
               "x_axis_min": null,
@@ -2061,24 +1654,24 @@
                     "Lu"
                   ],
                   "y": [
-                    100,
+                    300,
                     200,
-                    50,
                     150,
-                    50,
-                    10,
+                    100,
                     40,
-                    8,
-                    30,
-                    6,
                     20,
-                    3,
-                    15,
-                    2
+                    80,
+                    50,
+                    60,
+                    50,
+                    50,
+                    50,
+                    50,
+                    50
                   ],
-                  "color": "#333333",
+                  "color": "cyan",
                   "line_style": "solid",
-                  "marker_type": "square",
+                  "marker_type": "none",
                   "marker_fill": "filled",
                   "marker_size": "small"
                 },
@@ -2101,24 +1694,24 @@
                     "Lu"
                   ],
                   "y": [
-                    50,
                     100,
-                    20,
+                    80,
                     60,
+                    50,
                     20,
-                    4,
-                    15,
-                    3,
                     10,
-                    2,
-                    8,
-                    1,
-                    6,
-                    1
+                    30,
+                    20,
+                    25,
+                    20,
+                    18,
+                    18,
+                    18,
+                    18
                   ],
-                  "color": "#888888",
+                  "color": "magenta",
                   "line_style": "solid",
-                  "marker_type": "square",
+                  "marker_type": "none",
                   "marker_fill": "filled",
                   "marker_size": "small"
                 }
@@ -2128,7 +1721,7 @@
               "chart_title": "Volcanic-related",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 2.0,
+              "chart_aspect_ratio": 1.8,
               "x_axis_label": "La Ce Pr Nd Sm Eu Gd Tb Dy Ho Er Tm Yb Lu",
               "y_axis_label": "",
               "x_axis_min": null,
@@ -2183,22 +1776,22 @@
                     "Lu"
                   ],
                   "y": [
-                    3,
-                    2,
-                    1.5,
                     4,
-                    600,
+                    1.5,
+                    2,
+                    3,
+                    800,
                     200,
                     200,
                     8,
                     7,
-                    6,
                     5,
                     4,
                     6,
-                    5
+                    5,
+                    4
                   ],
-                  "color": "#333333",
+                  "color": "blue",
                   "line_style": "solid",
                   "marker_type": "star",
                   "marker_fill": "filled",
@@ -2224,21 +1817,21 @@
                   ],
                   "y": [
                     2,
-                    1.5,
                     1,
-                    3,
+                    1.5,
+                    2,
                     500,
                     150,
                     150,
                     7,
                     6,
-                    5,
                     4,
                     3,
                     5,
-                    4
+                    4,
+                    3
                   ],
-                  "color": "#888888",
+                  "color": "green",
                   "line_style": "solid",
                   "marker_type": "star",
                   "marker_fill": "filled",
@@ -2269,7 +1862,7 @@
               "y2": 700
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": 24,
           "parsed_content": null,
           "figure_type": null,
@@ -2310,18 +1903,18 @@
               "y2": 280
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": "scatter_plot",
-          "figure_description": "The figure is a scatter plot showing the relationship between total rare earth element concentration (\u03a3REE) and the ratio of light to heavy rare earth elements (\u03a3LREE/\u03a3HREE) in a normalized form. It illustrates the trends and groupings of data points related to different geological processes, such as high-temperature formation, REE sourcing, and the influence of high and low salinity fluids on REE distribution.",
+          "figure_description": "The figure is a scatter plot that shows the relationship between total rare earth elements (REE) and the ratio of light to heavy REE for different fluid sources and crystallization conditions. It illustrates the relative REE enrichment and fractionation patterns under different temperature and salinity conditions during mineralization processes.",
           "chart_data": {
             "chart_title": "Untitled",
             "Chart_Type": "Scatter Plot",
             "Orientation": "Landscape",
             "chart_aspect_ratio": 1.6,
-            "x_axis_label": "(\u03a3LREE/\u03a3HREE)N",
-            "y_axis_label": "\u03a3REE",
+            "x_axis_label": "(ΣLREE/ΣHREE)N",
+            "y_axis_label": "ΣREE",
             "x_axis_min": 0.1,
             "x_axis_max": 1000,
             "Left_Y_axis_min": 10,
@@ -2347,448 +1940,336 @@
             ],
             "data": [
               {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 0.8,
-                "y": 15000,
-                "color": "#FF0000",
+                "series": "Triangles - Hollow",
+                "color": "blue",
                 "line_style": "none",
                 "marker_type": "triangle",
                 "marker_fill": "hollow",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.8,
+                    "y": 12000
+                  },
+                  {
+                    "x": 1.1,
+                    "y": 20000
+                  },
+                  {
+                    "x": 1.5,
+                    "y": 25000
+                  },
+                  {
+                    "x": 2.0,
+                    "y": 15000
+                  }
+                ]
               },
               {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 0.9,
-                "y": 20000,
-                "color": "#FF0000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 1.1,
-                "y": 25000,
-                "color": "#FF0000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 1.3,
-                "y": 30000,
-                "color": "#FF0000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 1.5,
-                "y": 20000,
-                "color": "#FF0000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Hollow Triangles",
-                "x": 1.8,
-                "y": 15000,
-                "color": "#FF0000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Grey Triangles",
-                "x": 0.7,
-                "y": 12000,
-                "color": "#808080",
+                "series": "Triangles - Grey",
+                "color": "grey",
                 "line_style": "none",
                 "marker_type": "triangle",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.7,
+                    "y": 15000
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 11000
+                  },
+                  {
+                    "x": 1.8,
+                    "y": 28000
+                  }
+                ]
               },
               {
-                "series": "High Temperature - Grey Triangles",
-                "x": 1.2,
-                "y": 18000,
-                "color": "#808080",
+                "series": "Triangles - Black",
+                "color": "black",
                 "line_style": "none",
                 "marker_type": "triangle",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.9,
+                    "y": 10000
+                  },
+                  {
+                    "x": 1.3,
+                    "y": 10000
+                  }
+                ]
               },
               {
-                "series": "High Temperature - Black Triangles",
-                "x": 0.9,
-                "y": 10000,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "triangle",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Temperature - Black Diamond",
-                "x": 2.0,
-                "y": 10000,
-                "color": "#000000",
+                "series": "Diamonds - Black",
+                "color": "black",
                 "line_style": "none",
                 "marker_type": "diamond",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 1.5,
+                    "y": 10000
+                  }
+                ]
               },
               {
-                "series": "High Salinity - Hollow Squares",
-                "x": 0.12,
-                "y": 600,
-                "color": "#00FF00",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Hollow Squares",
-                "x": 0.2,
-                "y": 300,
-                "color": "#00FF00",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Hollow Squares",
-                "x": 0.25,
-                "y": 1500,
-                "color": "#00FF00",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Hollow Squares",
-                "x": 0.8,
-                "y": 1200,
-                "color": "#00FF00",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Light Grey Squares",
-                "x": 0.15,
-                "y": 800,
-                "color": "#D3D3D3",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Light Grey Squares",
-                "x": 0.3,
-                "y": 1200,
-                "color": "#D3D3D3",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Light Grey Squares",
-                "x": 0.5,
-                "y": 1500,
-                "color": "#D3D3D3",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Dark Grey Squares",
-                "x": 0.4,
-                "y": 1000,
-                "color": "#A9A9A9",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Dark Grey Squares",
-                "x": 0.6,
-                "y": 1200,
-                "color": "#A9A9A9",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Black Squares",
-                "x": 0.2,
-                "y": 1200,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Black Squares",
-                "x": 0.35,
-                "y": 1800,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Black Squares",
-                "x": 0.6,
-                "y": 1000,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Black Squares",
-                "x": 0.7,
-                "y": 1300,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "High Salinity - Black Squares",
-                "x": 0.8,
-                "y": 1000,
-                "color": "#000000",
-                "line_style": "none",
-                "marker_type": "square",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Crystallography - Hollow Diamonds",
-                "x": 3.0,
-                "y": 1500,
-                "color": "#800080",
+                "series": "Diamonds - Hollow",
+                "color": "green",
                 "line_style": "none",
                 "marker_type": "diamond",
                 "marker_fill": "hollow",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 2.5,
+                    "y": 1500
+                  },
+                  {
+                    "x": 3.0,
+                    "y": 2000
+                  },
+                  {
+                    "x": 3.5,
+                    "y": 1800
+                  },
+                  {
+                    "x": 4.0,
+                    "y": 1200
+                  }
+                ]
               },
               {
-                "series": "Crystallography - Hollow Diamonds",
-                "x": 4.0,
-                "y": 1200,
-                "color": "#800080",
+                "series": "Squares - Hollow",
+                "color": "red",
                 "line_style": "none",
-                "marker_type": "diamond",
+                "marker_type": "square",
                 "marker_fill": "hollow",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.15,
+                    "y": 500
+                  },
+                  {
+                    "x": 0.3,
+                    "y": 300
+                  },
+                  {
+                    "x": 0.8,
+                    "y": 1100
+                  },
+                  {
+                    "x": 1.1,
+                    "y": 900
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Hollow Circles",
-                "x": 20,
-                "y": 8000,
-                "color": "#0000FF",
+                "series": "Squares - Grey",
+                "color": "grey",
+                "line_style": "none",
+                "marker_type": "square",
+                "marker_fill": "filled",
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.18,
+                    "y": 800
+                  },
+                  {
+                    "x": 0.22,
+                    "y": 900
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 600
+                  },
+                  {
+                    "x": 0.4,
+                    "y": 1200
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1000
+                  },
+                  {
+                    "x": 0.7,
+                    "y": 1500
+                  },
+                  {
+                    "x": 1.2,
+                    "y": 800
+                  }
+                ]
+              },
+              {
+                "series": "Squares - Black",
+                "color": "black",
+                "line_style": "none",
+                "marker_type": "square",
+                "marker_fill": "filled",
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 0.2,
+                    "y": 1200
+                  },
+                  {
+                    "x": 0.45,
+                    "y": 900
+                  },
+                  {
+                    "x": 0.6,
+                    "y": 1100
+                  },
+                  {
+                    "x": 0.65,
+                    "y": 1000
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1200
+                  },
+                  {
+                    "x": 0.85,
+                    "y": 950
+                  },
+                  {
+                    "x": 0.9,
+                    "y": 1100
+                  }
+                ]
+              },
+              {
+                "series": "Circles - Hollow",
+                "color": "purple",
                 "line_style": "none",
                 "marker_type": "circle",
                 "marker_fill": "hollow",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 20,
+                    "y": 7000
+                  },
+                  {
+                    "x": 25,
+                    "y": 7500
+                  },
+                  {
+                    "x": 30,
+                    "y": 7200
+                  },
+                  {
+                    "x": 40,
+                    "y": 7000
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Hollow Circles",
-                "x": 25,
-                "y": 8500,
-                "color": "#0000FF",
-                "line_style": "none",
-                "marker_type": "circle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Hollow Circles",
-                "x": 30,
-                "y": 8000,
-                "color": "#0000FF",
-                "line_style": "none",
-                "marker_type": "circle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Hollow Circles",
-                "x": 40,
-                "y": 7500,
-                "color": "#0000FF",
-                "line_style": "none",
-                "marker_type": "circle",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Black Circles",
-                "x": 200,
-                "y": 6000,
-                "color": "#000000",
+                "series": "Circles - Grey",
+                "color": "grey",
                 "line_style": "none",
                 "marker_type": "circle",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 80,
+                    "y": 700
+                  },
+                  {
+                    "x": 100,
+                    "y": 800
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Black Circles",
-                "x": 220,
-                "y": 4000,
-                "color": "#000000",
+                "series": "Circles - Black",
+                "color": "black",
                 "line_style": "none",
                 "marker_type": "circle",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 150,
+                    "y": 6000
+                  },
+                  {
+                    "x": 160,
+                    "y": 4000
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Grey Circles",
-                "x": 100,
-                "y": 800,
-                "color": "#808080",
+                "series": "X Markers",
+                "color": "cyan",
                 "line_style": "none",
-                "marker_type": "circle",
+                "marker_type": "x",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 40,
+                    "y": 100
+                  },
+                  {
+                    "x": 45,
+                    "y": 90
+                  },
+                  {
+                    "x": 50,
+                    "y": 110
+                  },
+                  {
+                    "x": 55,
+                    "y": 80
+                  },
+                  {
+                    "x": 60,
+                    "y": 100
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Grey Circles",
-                "x": 150,
-                "y": 700,
-                "color": "#808080",
+                "series": "Bar Marker",
+                "color": "magenta",
                 "line_style": "none",
-                "marker_type": "circle",
+                "marker_type": "minus",
                 "marker_fill": "filled",
-                "marker_size": "medium"
+                "marker_size": "medium",
+                "points": [
+                  {
+                    "x": 22,
+                    "y": 1000
+                  }
+                ]
               },
               {
-                "series": "Low Salinity - Star Markers",
-                "x": 40,
-                "y": 100,
-                "color": "#FFA500",
-                "line_style": "none",
-                "marker_type": "star",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Star Markers",
-                "x": 50,
-                "y": 90,
-                "color": "#FFA500",
-                "line_style": "none",
-                "marker_type": "star",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Star Markers",
-                "x": 60,
-                "y": 110,
-                "color": "#FFA500",
-                "line_style": "none",
-                "marker_type": "star",
-                "marker_fill": "hollow",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Low Salinity - Horizontal Line Marker",
-                "x": 20,
-                "y": 800,
-                "color": "#00FFFF",
-                "line_style": "none",
-                "marker_type": "horizontal_line",
-                "marker_fill": "filled",
-                "marker_size": "medium"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 0.15,
-                "y": 400,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 0.3,
-                "y": 700,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 0.5,
-                "y": 1000,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 1.0,
-                "y": 1200,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 2.0,
-                "y": 1300,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Trend Line (APS)",
-                "x": 4.0,
-                "y": 1200,
-                "color": "#000000",
-                "line_style": "solid",
-                "marker_type": "none"
-              },
-              {
-                "series": "Horizontal Reference Line (~350\u00b0C)",
-                "x": 0.5,
-                "y": 9000,
-                "color": "#000000",
+                "series": "Reference Line (~350°C)",
+                "color": "black",
                 "line_style": "dashed",
-                "marker_type": "none"
-              },
-              {
-                "series": "Horizontal Reference Line (~350\u00b0C)",
-                "x": 300,
-                "y": 9000,
-                "color": "#000000",
-                "line_style": "dashed",
-                "marker_type": "none"
+                "marker_type": "none",
+                "marker_fill": "none",
+                "marker_size": "none",
+                "points": [
+                  {
+                    "x": 0.1,
+                    "y": 9000
+                  },
+                  {
+                    "x": 1000,
+                    "y": 9000
+                  }
+                ]
               }
             ]
           }
@@ -2814,7 +2295,7 @@
               "y2": 456
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": 26,
           "parsed_content": null,
           "figure_type": null,
@@ -2842,7 +2323,7 @@
               "y2": 715
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -2870,7 +2351,7 @@
               "y2": 572
             }
           ],
-          "section_id": 6,
+          "section_id": 5,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -2898,7 +2379,7 @@
               "y2": 618
             }
           ],
-          "section_id": 7,
+          "section_id": 6,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -2926,7 +2407,7 @@
               "y2": 914
             }
           ],
-          "section_id": 7,
+          "section_id": 6,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -2967,17 +2448,17 @@
               "y2": 435
             }
           ],
-          "section_id": 7,
+          "section_id": 6,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": "line_graph",
-          "figure_description": "The figure shows chondrite-normalized rare earth element (REE) patterns for various rock and fluid samples, including monazite, APS, G-2 granite, Casto granite-IB, Tuff-YNP, Thermal springs-YNP, and Thermal springs-IB. The top panel displays REE abundances in the rock samples, while the bottom panel shows REE abundances in the fluid samples.",
+          "figure_description": "The figure shows two line graphs comparing the concentrations of rare earth elements in different samples. The top graph shows concentrations in various rock types, while the bottom graph shows concentrations in thermal springs from two different locations.",
           "chart_data": [
             {
               "chart_title": "Untitled",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 1.6,
+              "chart_aspect_ratio": 2.1,
               "x_axis_label": "",
               "y_axis_label": "Sample/chondrite",
               "x_axis_min": null,
@@ -3017,647 +2498,333 @@
               "data": [
                 {
                   "series": "Monazite",
-                  "x": "La",
-                  "y": 600000,
                   "color": "#000000",
                   "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Ce",
-                  "y": 400000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Pr",
-                  "y": 300000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Nd",
-                  "y": 200000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Sm",
-                  "y": 100000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Eu",
-                  "y": 200,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Gd",
-                  "y": 50000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Tb",
-                  "y": 35000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Dy",
-                  "y": 25000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Ho",
-                  "y": 20000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Er",
-                  "y": 15000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Tm",
-                  "y": 12000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Yb",
-                  "y": 10000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "Monazite",
-                  "x": "Lu",
-                  "y": 8000,
-                  "color": "#000000",
-                  "line_style": "solid",
-                  "marker_type": "none"
+                  "marker_type": "none",
+                  "marker_fill": "filled",
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 600000
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 400000
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 250000
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 200000
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 100000
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 200
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 50000
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 40000
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 30000
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 20000
+                    },
+                    {
+                      "x": "Er",
+                      "y": 15000
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 12000
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 10000
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 8000
+                    }
+                  ]
                 },
                 {
                   "series": "APS",
-                  "x": "La",
-                  "y": 150000,
                   "color": "#808080",
                   "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Ce",
-                  "y": 120000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Pr",
-                  "y": 100000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Nd",
-                  "y": 80000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Sm",
-                  "y": 50000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Eu",
-                  "y": 4000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Gd",
-                  "y": 3000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Tb",
-                  "y": 2000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Dy",
-                  "y": 1500,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Ho",
-                  "y": 1000,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Er",
-                  "y": 800,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Tm",
-                  "y": 500,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Yb",
-                  "y": 300,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
-                },
-                {
-                  "series": "APS",
-                  "x": "Lu",
-                  "y": 200,
-                  "color": "#808080",
-                  "line_style": "solid",
-                  "marker_type": "none"
+                  "marker_type": "none",
+                  "marker_fill": "filled",
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 150000
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 120000
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 80000
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 60000
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 20000
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 4000
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 2000
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 1000
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 600
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 400
+                    },
+                    {
+                      "x": "Er",
+                      "y": 300
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 200
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 150
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 120
+                    }
+                  ]
                 },
                 {
                   "series": "G-2 granite",
-                  "x": "La",
-                  "y": 350,
                   "color": "#0000FF",
                   "line_style": "solid",
                   "marker_type": "square",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Ce",
-                  "y": 200,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Pr",
-                  "y": 150,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Nd",
-                  "y": 100,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Sm",
-                  "y": 60,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Eu",
-                  "y": 10,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Gd",
-                  "y": 20,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Tb",
-                  "y": 15,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Dy",
-                  "y": 10,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Ho",
-                  "y": 8,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Er",
-                  "y": 7,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Tm",
-                  "y": 6,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Yb",
-                  "y": 5,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "G-2 granite",
-                  "x": "Lu",
-                  "y": 4,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "square",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 300
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 200
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 150
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 100
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 50
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 8
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 30
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 15
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 10
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 8
+                    },
+                    {
+                      "x": "Er",
+                      "y": 6
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 5
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 4
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 4
+                    }
+                  ]
                 },
                 {
                   "series": "Casto granite-IB",
-                  "x": "La",
-                  "y": 150,
                   "color": "#008000",
                   "line_style": "solid",
                   "marker_type": "circle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Ce",
-                  "y": 100,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Pr",
-                  "y": 80,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Nd",
-                  "y": 60,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Sm",
-                  "y": 50,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Eu",
-                  "y": 8,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Gd",
-                  "y": 30,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Tb",
-                  "y": 20,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Dy",
-                  "y": 15,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Ho",
-                  "y": 10,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Er",
-                  "y": 8,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Tm",
-                  "y": 7,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Yb",
-                  "y": 6,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Casto granite-IB",
-                  "x": "Lu",
-                  "y": 5,
-                  "color": "#008000",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 150
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 100
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 80
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 60
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 40
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 10
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 15
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 12
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 10
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 9
+                    },
+                    {
+                      "x": "Er",
+                      "y": 8
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 7
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 6
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 5
+                    }
+                  ]
                 },
                 {
                   "series": "Tuff-YNP",
-                  "x": "La",
-                  "y": 400,
                   "color": "#FF0000",
                   "line_style": "solid",
                   "marker_type": "triangle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Ce",
-                  "y": 250,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Pr",
-                  "y": 150,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Nd",
-                  "y": 100,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Sm",
-                  "y": 70,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Eu",
-                  "y": 15,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Gd",
-                  "y": 40,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Tb",
-                  "y": 30,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Dy",
-                  "y": 25,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Ho",
-                  "y": 20,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Er",
-                  "y": 18,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Tm",
-                  "y": 15,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Yb",
-                  "y": 12,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Tuff-YNP",
-                  "x": "Lu",
-                  "y": 10,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 400
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 300
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 200
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 120
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 60
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 20
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 40
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 25
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 20
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 18
+                    },
+                    {
+                      "x": "Er",
+                      "y": 15
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 14
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 13
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 12
+                    }
+                  ]
                 }
               ]
             },
@@ -3665,7 +2832,7 @@
               "chart_title": "Untitled",
               "Chart_Type": "Line Graph",
               "Orientation": "Landscape",
-              "chart_aspect_ratio": 1.6,
+              "chart_aspect_ratio": 2.1,
               "x_axis_label": "",
               "y_axis_label": "Fluid/chondrite",
               "x_axis_min": null,
@@ -3702,283 +2869,131 @@
               "data": [
                 {
                   "series": "Thermal springs-YNP",
-                  "x": "La",
-                  "y": 0.003,
                   "color": "#FF0000",
                   "line_style": "solid",
                   "marker_type": "triangle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Ce",
-                  "y": 0.0025,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Pr",
-                  "y": 0.0012,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Nd",
-                  "y": 0.0013,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Sm",
-                  "y": 0.0006,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Eu",
-                  "y": 0.0002,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Gd",
-                  "y": 0.0005,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Tb",
-                  "y": 0.0003,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Dy",
-                  "y": 0.00025,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Ho",
-                  "y": 0.00018,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Er",
-                  "y": 0.00015,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Tm",
-                  "y": 0.00013,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Yb",
-                  "y": 0.00012,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-YNP",
-                  "x": "Lu",
-                  "y": 0.00011,
-                  "color": "#FF0000",
-                  "line_style": "solid",
-                  "marker_type": "triangle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 0.003
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 0.0025
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 0.0015
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 0.0015
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 0.0006
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 0.0002
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 0.0004
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 0.0003
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 0.00025
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 0.00018
+                    },
+                    {
+                      "x": "Er",
+                      "y": 0.00015
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 0.00013
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 0.00012
+                    }
+                  ]
                 },
                 {
                   "series": "Thermal springs-IB",
-                  "x": "La",
-                  "y": 0.02,
-                  "color": "#0000FF",
+                  "color": "#008000",
                   "line_style": "solid",
                   "marker_type": "circle",
                   "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Ce",
-                  "y": 0.015,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Pr",
-                  "y": 0.012,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Nd",
-                  "y": 0.009,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Sm",
-                  "y": 0.005,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Eu",
-                  "y": 0.0012,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Gd",
-                  "y": 0.004,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Tb",
-                  "y": 0.0035,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Dy",
-                  "y": 0.003,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Ho",
-                  "y": 0.0028,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Er",
-                  "y": 0.0025,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Tm",
-                  "y": 0.0023,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Yb",
-                  "y": 0.002,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
-                },
-                {
-                  "series": "Thermal springs-IB",
-                  "x": "Lu",
-                  "y": 0.0022,
-                  "color": "#0000FF",
-                  "line_style": "solid",
-                  "marker_type": "circle",
-                  "marker_fill": "hollow",
-                  "marker_size": "medium"
+                  "marker_size": "medium",
+                  "points": [
+                    {
+                      "x": "La",
+                      "y": 0.025
+                    },
+                    {
+                      "x": "Ce",
+                      "y": 0.02
+                    },
+                    {
+                      "x": "Pr",
+                      "y": 0.015
+                    },
+                    {
+                      "x": "Nd",
+                      "y": 0.01
+                    },
+                    {
+                      "x": "Sm",
+                      "y": 0.006
+                    },
+                    {
+                      "x": "Eu",
+                      "y": 0.0012
+                    },
+                    {
+                      "x": "Gd",
+                      "y": 0.004
+                    },
+                    {
+                      "x": "Tb",
+                      "y": 0.0035
+                    },
+                    {
+                      "x": "Dy",
+                      "y": 0.003
+                    },
+                    {
+                      "x": "Ho",
+                      "y": 0.0028
+                    },
+                    {
+                      "x": "Er",
+                      "y": 0.0025
+                    },
+                    {
+                      "x": "Tm",
+                      "y": 0.0023
+                    },
+                    {
+                      "x": "Yb",
+                      "y": 0.002
+                    },
+                    {
+                      "x": "Lu",
+                      "y": 0.0022
+                    }
+                  ]
                 }
               ]
             }
@@ -4005,7 +3020,7 @@
               "y2": 623
             }
           ],
-          "section_id": 7,
+          "section_id": 6,
           "parent_id": 32,
           "parsed_content": null,
           "figure_type": null,
@@ -4033,7 +3048,7 @@
               "y2": 690
             }
           ],
-          "section_id": 7,
+          "section_id": 6,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4061,7 +3076,7 @@
               "y2": 722
             }
           ],
-          "section_id": 8,
+          "section_id": 7,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4089,7 +3104,7 @@
               "y2": 913
             }
           ],
-          "section_id": 8,
+          "section_id": 7,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4117,7 +3132,7 @@
               "y2": 911
             }
           ],
-          "section_id": 8,
+          "section_id": 7,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4158,7 +3173,7 @@
               "y2": 565
             }
           ],
-          "section_id": 8,
+          "section_id": 7,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4186,7 +3201,7 @@
               "y2": 530
             }
           ],
-          "section_id": 8,
+          "section_id": 7,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4214,7 +3229,7 @@
               "y2": 110
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4242,7 +3257,7 @@
               "y2": 156
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4270,7 +3285,7 @@
               "y2": 196
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4298,7 +3313,7 @@
               "y2": 250
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4326,7 +3341,7 @@
               "y2": 409
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
@@ -4354,7 +3369,7 @@
               "y2": 500
             }
           ],
-          "section_id": 9,
+          "section_id": 8,
           "parent_id": null,
           "parsed_content": null,
           "figure_type": null,
