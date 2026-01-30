@@ -221,7 +221,7 @@ Reproducibility was obtained using the standard deviation calculated from the me
 Table 5, and a comparison for a spot diameter of \(60\mu \mathrm{m}\) is presented in Figure 6a. A slight difference for the REE concentrations was observed between analyses carried out using both external calibrators (Figure 6a), with an overestimation of the REE concentrations between 3 and \(22\%\) using NIST SRM 610 compared with the Mistamisk uraninite. The comparison of the concentrations obtained by LA- ICP- MS with the values from the same sample using SIMS (Mercadier 2008) is presented in Figure 6b. Considering the chondrite- normalised REE patterns, no significant differences are visible. As both external calibrators provided similar results and because NIST SRM 610 is a certified reference material, the latter was used as the external calibrator during the routine analytical protocol for unknown samples. The REE concentrations obtained by LA- ICP- MS for all diameters (16, 24 and \(60\mu \mathrm{m}\) ) were very similar to those obtained by SIMS at a diameter of \(40\mu \mathrm{m}\) (Figure 6b) and gave identical chondrite- normalised REE patterns.  
 
 
-### Application: REE measurements of UO2 from the Kiggavik, Torkuduk and Dulann Uul uranium deposits
+## Application: REE measurements of UO2 from the Kiggavik, Torkuduk and Dulann Uul uranium deposits
 
 
 Samples originating from the three selected deposits for which the genetic conditions are not clearly constrained were analysed using NIST SRM 610 as external calibrator,  
