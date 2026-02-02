@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- viewer_template.html from deepseek-ocr-experiments commit: e7cac1f (2026-01-30 01:17:53 UTC) -->
+<!-- viewer_template.html from deepseek-ocr-experiments commit: e7cac1f -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1261,21 +1261,6 @@
             return documentData.sections.filter(s => s.start_page === pageNum);
         }
 
-        function findHeadingForSection(page, sectionName) {
-            // Find heading element that matches section name
-            // Look for title/sub_title elements with matching text
-            for (const elem of page.elements) {
-                const type = elem.element_type || elem.raw_type;
-                if ((type === 'title' || type === 'sub_title') && elem.bounding_boxes && elem.bounding_boxes.length > 0) {
-                    // Check if element text matches section name (could be in content or check by position)
-                    // Since we don't have text content in elements, we match by checking
-                    // if any title/subtitle is near the expected position
-                    return elem;
-                }
-            }
-            return null;
-        }
-
         function renderSectionMarkers(page, scaleX, scaleY) {
             const wrapper = document.getElementById('page-wrapper');
             const pageNum = page.sequence_number;
@@ -1283,18 +1268,12 @@
 
             if (sectionsStarting.length === 0) return;
 
-            // Find all title/subtitle elements on this page
-            const headings = page.elements.filter(elem => {
-                const type = elem.element_type || elem.raw_type;
-                return (type === 'title' || type === 'sub_title') && elem.bounding_boxes && elem.bounding_boxes.length > 0;
-            });
-
-            // Sort headings by Y position
-            headings.sort((a, b) => a.bounding_boxes[0].y1 - b.bounding_boxes[0].y1);
-
-            // Match sections to headings by order (both should be in document order)
-            sectionsStarting.forEach((section, idx) => {
-                const heading = headings[idx];
+            // Match sections to elements by section_id
+            sectionsStarting.forEach(section => {
+                const heading = page.elements.find(elem =>
+                    elem.section_id === section.id &&
+                    elem.bounding_boxes && elem.bounding_boxes.length > 0
+                );
                 if (!heading) return;
 
                 const box = heading.bounding_boxes[0];
